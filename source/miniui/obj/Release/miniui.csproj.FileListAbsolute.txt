@@ -1,0 +1,6 @@
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\miniui\bin\miniui.dll.config
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\miniui\bin\miniui.dll
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\miniui\bin\miniui.pdb
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\miniui\obj\Release\miniui.dll
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\miniui\obj\Release\miniui.pdb
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\miniui\obj\Release\miniui.csprojResolveAssemblyReference.cache

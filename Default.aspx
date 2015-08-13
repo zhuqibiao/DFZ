@@ -11,33 +11,14 @@
 	<script type="text/javascript" src="jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
 
     <script type="text/javascript">
-        $(function () {
-            $('#tt').tabs({
-                onLoad: function (panel) {
-                    var plugin = panel.panel('options').title;
-                    panel.find('textarea[name="code-' + plugin + '"]').each(function () {
-                        var data = $(this).val();
-                        data = data.replace(/(\r\n|\r|\n)/g, '\n');
-                        if (data.indexOf('\t') == 0) {
-                            data = data.replace(/^\t/, '');
-                            data = data.replace(/\n\t/g, '\n');
-                        }
-                        data = data.replace(/\t/g, '    ');
-                        var pre = $('<pre name="code" class="prettyprint linenums"></pre>').insertAfter(this);
-                        pre.text(data);
-                        $(this).remove();
-                    });
-                    prettyPrint();
-                }
-            });
-        });
-        function open1(plugin) {
+        
+        function open1(plugin,openurl) {
             if ($('#tt').tabs('exists', plugin)) {
                 $('#tt').tabs('select', plugin);
             } else {
                 $('#tt').tabs('add', {
                     title: plugin,
-                    href: plugin + '.php',
+                    href: '/DFZ/Admin/Order.aspx',
                     closable: true,
                     extractor: function (data) {
                         data = $.fn.panel.defaults.extractor(data);
@@ -58,12 +39,14 @@
     <div class="easyui-layout" style="width:1100px;height:650px;">
         <div id="p" data-options="region:'west'" title="菜单项" style="width:30%;padding:10px">
             <div title="Title1" style="padding:10px;">
-                订单
+                <a href="#" onclick="open1('order','/DFZ/Admin/Order.aspx')">订单</a>
             </div>
         </div>
         <div data-options="region:'center'">
             <div id="tt" class="easyui-tabs" fit="true" border="false" plain="true">
-				<div title="订单信息" href="/DFZ/Admin/Order.aspx"></div>
+				<div title="订单信息">
+                    <iframe id="ifmcontent" name="ifmcontent" src="Admin/Order.aspx" style="width:100%;height:600px;"></iframe>
+                </div>
 			</div>
         </div>
     </div>

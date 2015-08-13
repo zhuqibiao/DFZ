@@ -1,0 +1,8 @@
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DFZ.YML2.dll.config
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DFZ.YML2.dll
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DFZ.YML2.pdb
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\obj\Debug\DFZ.YML2.csprojResolveAssemblyReference.cache
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\obj\Debug\DFZ.YML2.dll
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\obj\Debug\DFZ.YML2.pdb
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DB.dll
+C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DB.pdb

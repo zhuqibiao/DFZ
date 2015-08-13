@@ -11,15 +11,74 @@
 	<script type="text/javascript" src="../jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
 </head>
 <body>
-    <table class="easyui-datagrid" style="width:100%;height:250px"  
-        data-options="url:'DataService.ashx',fitColumns:true,singleSelect:true">  
-    <thead>  
-        <tr>  
-            <th data-options="field:'Production',width:100">Code</th>  
-            <th data-options="field:'Consignee',width:100">Name</th>  
-            <th data-options="field:'Phone',width:100,align:'right'">Price</th>  
-        </tr>  
-    </thead>  
-</table> 
+    <h2>XXX 系统</h2>
+    <div style="margin:20px 0;"></div>
+    <div class="easyui-layout" style="width:100%;height:650px;">
+        <div id="p" data-options="region:'west'" title="菜单项" style="width:15%;padding:10px">
+            <div title="Title1" style="padding:10px;">
+                <a href="Order.aspx">订单</a>
+            </div>
+        </div>
+        <div data-options="region:'center'">
+            <div id="tt" class="easyui-tabs" fit="true" border="false" plain="true" >
+				<div title="订单信息" style="padding:10px;">
+                    <br />
+                    <table id="dg" class="easyui-datagrid" style="width:100%;"  
+                        data-options="url:'DataService.ashx',idField:'ID', fitColumns:true,singleSelect:true,selectOnCheck:true,checkOnSelect:true,toolbar:toolbar,rownumbers:true">  
+                        <thead data-options="frozen:true">
+                            <tr>
+                                <th data-options="field:'ck',checkbox:true"></th>
+                                <th data-options="field:'Production',width:300">产品</th>  
+                                <th data-options="field:'Consignee',width:70">姓名</th>  
+                                <th data-options="field:'Phone',width:100,align:'right'">手机号</th>  
+                            </tr>
+                        </thead>
+                        <thead>  
+                            <tr>  
+                                <th data-options="field:'',width:20,align:'right'">xxx</th>  
+                            </tr>  
+                        </thead>  
+                    </table> 
+                </div>
+			</div>
+            
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var toolbar = [{
+            text: '处理',
+            iconCls: 'icon-edit',
+            handler: function () { markread() }
+        }, {
+            text: '删除',
+            iconCls: 'icon-remove',
+            handler: function () { del() }
+        }];
+
+
+        function markread() {
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+                //标记已读
+                
+
+            }
+            else {
+                $.messager.alert('提示',"请选中行");
+            }
+        }
+
+        function del() {
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+                //删除
+
+            }
+            else {
+                $.messager.alert('提示', "请选中行");
+            }
+        }
+    </script>
 </body>
 </html>

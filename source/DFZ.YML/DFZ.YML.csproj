@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6454FAE8-0A57-4B85-A17F-188736F42271}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DFZ.YML</RootNamespace>
+    <AssemblyName>DFZ.YML</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\anniu.gif" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="css\css.css" />
+    <Content Include="Images\dibu_bj.gif" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\home_02.jpg" />
+    <Content Include="Images\home_04.jpg" />
+    <Content Include="Images\home_05.jpg" />
+    <Content Include="Images\home_06.jpg" />
+    <Content Include="Images\home_07.jpg" />
+    <Content Include="Images\home_08.jpg" />
+    <Content Include="Images\home_09.jpg" />
+    <Content Include="Images\home_10.jpg" />
+    <Content Include="Images\home_100.jpg" />
+    <Content Include="Images\home_101.jpg" />
+    <Content Include="Images\home_102.jpg" />
+    <Content Include="Images\home_103.jpg" />
+    <Content Include="Images\home_105.jpg" />
+    <Content Include="Images\home_106.jpg" />
+    <Content Include="Images\home_108.jpg" />
+    <Content Include="Images\home_11.jpg" />
+    <Content Include="Images\home_12.jpg" />
+    <Content Include="Images\home_13.jpg" />
+    <Content Include="Images\home_14.jpg" />
+    <Content Include="Images\home_15.jpg" />
+    <Content Include="Images\home_16.jpg" />
+    <Content Include="Images\home_17.jpg" />
+    <Content Include="Images\home_18.jpg" />
+    <Content Include="Images\home_19.jpg" />
+    <Content Include="Images\home_20.jpg" />
+    <Content Include="Images\home_21.jpg" />
+    <Content Include="Images\home_22.jpg" />
+    <Content Include="Images\home_23.jpg" />
+    <Content Include="Images\home_24.jpg" />
+    <Content Include="Images\home_25.jpg" />
+    <Content Include="Images\home_26.jpg" />
+    <Content Include="Images\home_27.jpg" />
+    <Content Include="Images\home_28.jpg" />
+    <Content Include="Images\home_29.jpg" />
+    <Content Include="Images\home_30.jpg" />
+    <Content Include="Images\home_31.jpg" />
+    <Content Include="Images\home_32.jpg" />
+    <Content Include="Images\home_33.jpg" />
+    <Content Include="Images\home_34.jpg" />
+    <Content Include="Images\home_35.jpg" />
+    <Content Include="Images\home_36.jpg" />
+    <Content Include="Images\home_37.jpg" />
+    <Content Include="Images\home_38.jpg" />
+    <Content Include="Images\home_39.jpg" />
+    <Content Include="Images\home_40.jpg" />
+    <Content Include="Images\home_41.jpg" />
+    <Content Include="Images\home_42.jpg" />
+    <Content Include="Images\home_44.jpg" />
+    <Content Include="Images\home_45.jpg" />
+    <Content Include="Images\home_46.jpg" />
+    <Content Include="Images\home_47.jpg" />
+    <Content Include="Images\home_48.jpg" />
+    <Content Include="Images\home_49.jpg" />
+    <Content Include="Images\home_50.jpg" />
+    <Content Include="Images\home_51.jpg" />
+    <Content Include="Images\home_52.jpg" />
+    <Content Include="Images\home_53.jpg" />
+    <Content Include="Images\home_54.jpg" />
+    <Content Include="Images\home_55.jpg" />
+    <Content Include="Images\home_56.jpg" />
+    <Content Include="Images\home_57.jpg" />
+    <Content Include="Images\home_58.jpg" />
+    <Content Include="Images\home_59.jpg" />
+    <Content Include="Images\home_60.jpg" />
+    <Content Include="Images\home_61.jpg" />
+    <Content Include="Images\home_62.jpg" />
+    <Content Include="Images\home_63.jpg" />
+    <Content Include="Images\home_64.jpg" />
+    <Content Include="Images\home_65.jpg" />
+    <Content Include="Images\home_66.jpg" />
+    <Content Include="Images\home_67.jpg" />
+    <Content Include="Images\home_68.jpg" />
+    <Content Include="Images\home_69.jpg" />
+    <Content Include="Images\home_70.jpg" />
+    <Content Include="Images\home_71.jpg" />
+    <Content Include="Images\home_72.jpg" />
+    <Content Include="Images\home_73.jpg" />
+    <Content Include="Images\home_74.jpg" />
+    <Content Include="Images\home_75.jpg" />
+    <Content Include="Images\home_76.jpg" />
+    <Content Include="Images\home_77.jpg" />
+    <Content Include="Images\home_78.jpg" />
+    <Content Include="Images\home_79.jpg" />
+    <Content Include="Images\home_80.jpg" />
+    <Content Include="Images\home_81.jpg" />
+    <Content Include="Images\home_82.jpg" />
+    <Content Include="Images\home_83.jpg" />
+    <Content Include="Images\home_84.jpg" />
+    <Content Include="Images\home_85.jpg" />
+    <Content Include="Images\home_86.jpg" />
+    <Content Include="Images\home_87.jpg" />
+    <Content Include="Images\home_88.jpg" />
+    <Content Include="Images\home_89.jpg" />
+    <Content Include="Images\home_90.jpg" />
+    <Content Include="Images\home_91.jpg" />
+    <Content Include="Images\home_92.jpg" />
+    <Content Include="Images\home_93.jpg" />
+    <Content Include="Images\home_94.jpg" />
+    <Content Include="Images\home_95.jpg" />
+    <Content Include="Images\home_96.jpg" />
+    <Content Include="Images\home_97.jpg" />
+    <Content Include="Images\home_98.jpg" />
+    <Content Include="Images\home_99.jpg" />
+    <Content Include="Images\kf.js" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\tel.gif" />
+    <Content Include="Images\wpa.js" />
+    <Content Include="Images\xiaqingsu_xin.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="order.aspx" />
+    <Content Include="orders\12_jinshe.js" />
+    <Content Include="orders\diqu.js" />
+    <Content Include="orders\hot.gif" />
+    <Content Include="orders\onesub_01.js" />
+    <Content Include="orders\public.css" />
+    <Content Include="orders\subb.gif" />
+    <Content Include="orders\top_bg.jpg" />
+    <Content Include="orders\tubiao.gif" />
+    <Content Include="orders\zxdg.jpg" />
+    <Content Include="Order.ashx" />
+    <None Include="Properties\PublishProfiles\fb.pubxml" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Wap\images\001.jpg" />
+    <Content Include="Wap\images\003.jpg" />
+    <Content Include="Wap\images\004.jpg" />
+    <Content Include="Wap\images\005.jpg" />
+    <Content Include="Wap\images\006.jpg" />
+    <Content Include="Wap\images\007.jpg" />
+    <Content Include="Wap\images\008.jpg" />
+    <Content Include="Wap\images\009.jpg" />
+    <Content Include="Wap\images\anli1.jpg" />
+    <Content Include="Wap\images\anli2.jpg" />
+    <Content Include="Wap\images\anli3.jpg" />
+    <Content Include="Wap\images\anli4.jpg" />
+    <Content Include="Wap\images\banner.jpg" />
+    <Content Include="Wap\images\css.css" />
+    <Content Include="Wap\images\diqu.js" />
+    <Content Include="Wap\images\home_22.png" />
+    <Content Include="Wap\images\puct.jpg" />
+    <Content Include="Wap\images\t1_01.jpg" />
+    <Content Include="Wap\images\t1_02.jpg" />
+    <Content Include="Wap\images\t1_03.jpg" />
+    <Content Include="Wap\images\t2_01.jpg" />
+    <Content Include="Wap\images\t2_02.jpg" />
+    <Content Include="Wap\WapIndex.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\_references.js" />
+    <Content Include="Site.Mobile.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order.ashx.cs">
+      <DependentUpon>Order.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="order.aspx.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="order.aspx.designer.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Wap\WapIndex.aspx.cs">
+      <DependentUpon>WapIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wap\WapIndex.aspx.designer.cs">
+      <DependentUpon>WapIndex.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_Start\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DB\DB.csproj">
+      <Project>{1406f0f5-89bb-4e0a-a9f2-601aef001cda}</Project>
+      <Name>DB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>39023</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:39023/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

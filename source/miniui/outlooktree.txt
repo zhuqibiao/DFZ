@@ -1,0 +1,7 @@
+﻿[
+	{id: "menu", text: "菜单"},
+		
+	{id: "menu-order", text: "订单", pid: "menu" }
+]
+
+

@@ -1,0 +1,4 @@
+C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\bin\Debug\DB.dll
+C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\bin\Debug\DB.pdb
+C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\obj\Debug\DB.dll
+C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\obj\Debug\DB.pdb

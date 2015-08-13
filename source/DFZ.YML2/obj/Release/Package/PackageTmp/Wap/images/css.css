@@ -1,0 +1,339 @@
+body {
+	background: rgb(255, 255, 255); font: 14px/25px "Î¢ÈíÑÅºÚ"; margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+img {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+label {
+	margin: 0px; padding: 0px;
+}
+br {
+	margin: 0px; padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+.wrap {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 320px;
+}
+.logo {
+	padding: 24px 0px 13px; text-align: center;
+}
+.banner {
+	text-align: center;
+}
+.menu table {
+	border-collapse: collapse;
+}
+.menu table tr td {
+	background: rgb(4, 88, 159); color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.menu table tr td.cborder {
+	border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.menu table tr.mend td {
+	background: rgb(4, 88, 159); color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.menu table td a {
+	color: rgb(255, 255, 255); font-size: 14px; text-decoration: none;
+}
+.title {
+	background: rgb(0, 65, 115); padding: 10px 0px; text-align: center; margin-top: 10px;
+}
+.title h4 {
+	margin: 0px; padding: 0px 0px 4px; color: rgb(255, 255, 255); font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px;
+}
+.title h5 {
+	margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-size: 12px; font-weight: normal;
+}
+.info {
+	padding: 5px; line-height: 22px; font-size: 13px;
+}
+.info h3 {
+	margin: 0px; padding: 2px 0px; color: rgb(192, 0, 0);
+}
+.info p {
+	margin: 0px; padding: 0px; color: rgb(0, 0, 0);
+}
+.div-center {
+	text-align: center;
+}
+.order {
+	line-height: 20px; font-size: 13px;
+}
+.order .must {
+	color: rgb(88, 117, 59);
+}
+.order-table {
+	width: 100%; border-collapse: collapse;
+}
+.order-table td {
+	background: rgb(255, 255, 255); padding: 3px 0px 3px 10px; border: 1px solid rgb(234, 234, 234);
+}
+.order-table td input {
+	border: 1px solid currentColor; width: 200px; height: 25px; line-height: 25px;
+}
+.order-table td textarea {
+	border: 1px solid currentColor; width: 200px; height: 50px; line-height: 20px;
+}
+.order-table td .sub {
+	background: rgb(88, 117, 59); border: 1px solid rgb(174, 187, 157); border-image: none; width: 99px; height: 34px; color: rgb(255, 255, 255); font-family: "Î¢ÈíÑÅºÚ"; font-size: medium; font-weight: bold;
+}
+.div-left {
+	text-align: left;
+}
+.operate {
+	background: rgb(244, 244, 244); margin: 10px 0px 0px; padding: 10px 0px; text-align: center;
+}
+.operate p {
+	margin: 0px; padding: 0px; text-align: center; font-size: 14px;
+}
+.operate p.center {
+	padding: 6px 0px 8px;
+}
+.alt p {
+	margin: 0px auto; padding: 10px 0px 0px;
+}
+.order-t {
+	padding-left: 10px;
+}
+.jg {
+	margin-top: 10px;
+}
+.foot {
+	background: rgb(188, 7, 40); padding: 10px 0px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; font-size: 12px;
+}
+.foot a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.ctel a {
+	color: rgb(7, 52, 248);
+}
+.dh {
+	padding: 3px 0px; text-align: center;
+}
+.dh a {
+	margin: 0px 3px; color: rgb(0, 0, 0); font-size: 12px;
+}
+a {
+	font-decoration: unline;
+}
+.xk {
+	background: rgb(233, 241, 225); border: 1px dashed rgb(89, 118, 60); border-image: none; padding-left: 10px;
+}
+.op-js {
+	line-height: 27px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 13px; font-weight: bold;
+}
+.op-link-dg img {
+	margin-bottom: 8px;
+}
+.operate table {
+	margin-bottom: 10px;
+}
+.shopbox {
+	background: rgb(221, 221, 221); font: 14px/26px "ËÎÌå"; font-size-adjust: none; font-stretch: normal;
+}
+.shopbox p img {
+	margin-right: 10px; float: left;
+}
+.shopbox ul {
+	margin: 0px; padding: 0px;
+}
+.bdbox li {
+	padding: 4px 0px; height: 30px; line-height: 26px; clear: both; border-bottom-color: rgb(115, 78, 83); border-bottom-width: 1px; border-bottom-style: dashed; _padding: 0;
+}
+.bdbox li span.bdl {
+	width: 25%; float: left; display: block;
+}
+.bdbox li span.bdr {
+	width: 73%; float: right; display: block;
+}
+.bdbox em {
+	color: rgb(255, 0, 0); font-style: normal; margin-right: 6px;
+}
+.bdbox li.code img {
+	width: 48px; height: 26px; vertical-align: middle; cursor: pointer;
+}
+.bdbox li span.bdr input.txt {
+	padding: 0px 6px; border: 1px solid rgb(204, 204, 204); height: 22px; color: rgb(0, 102, 0); line-height: 22px; font-size: 14px; vertical-align: middle;
+}
+.bdbox li span.bdr {
+	padding-left: 4px; float: right;
+}
+.bdbox li.product {
+	height: 155px;
+}
+.bdbox li.add {
+	height: 55px;
+}
+.bdbox li.area {
+	height: 75px;
+}
+.bdbox li.guest {
+	height: 41px;
+}
+.bdbox li.sub {
+	padding-left: 80px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.bdbox li input.send {
+	background: rgb(231, 106, 0); margin: 0px auto; border: 1px solid rgb(218, 101, 2); border-image: none; width: 110px; height: 32px; color: rgb(255, 255, 255); line-height: 32px; font-size: 16px; cursor: pointer;
+}
+.p10 {
+	padding: 8px 10px;
+}
+li {
+	list-style: none; text-indent: 0px;
+}
+.cp1 {
+	padding: 5px 0px 0px 2px; text-align: center; -ms-word-break: normal; -ms-word-wrap: break-word;
+}
+.dg_main {
+	margin: 0px auto; width: 320px; height: auto; overflow: hidden; clear: both;
+}
+.jiage {
+	background: rgb(21, 111, 196); padding: 0px 0px 5px; width: 320px; overflow: hidden; border-bottom-color: rgb(68, 68, 68); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.cp1 {
+	padding: 5px 0px 0px 2px; text-align: center; -ms-word-break: normal; -ms-word-wrap: break-word;
+}
+.bjiac2 {
+	margin: 12px 0px 0px; color: rgb(213, 51, 28); line-height: 24px; font-size: 14px; font-weight: bold;
+}
+.tel {
+	background: rgb(255, 255, 255); padding: 10px; text-align: center; font-family: "Î¢ÈíÑÅºÚ";
+}
+.tel ul {
+	
+}
+.tel ul li {
+	padding: 0px 5px; color: rgb(35, 35, 35); font-size: 16px; border-right-color: rgb(100, 100, 100); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.tel ul .tel_li1 {
+	border: currentColor;
+}
+.tel p {
+	margin: 8px 0px 0px; color: rgb(100, 100, 100); line-height: 22px; font-size: 14px;
+}
+.tel .tel_a {
+	background: url("../images/jjsj_bg5.jpg") no-repeat; padding: 3px 0px 0px; width: 194px; height: 23px; color: rgb(255, 255, 255); font-size: 16px; text-decoration: none; display: inline-block;
+}
+.tel .qq_zx {
+	background: url("../images/jjsj_bg51.png") no-repeat; padding: 3px 0px 0px; width: 100px; height: 23px; color: rgb(255, 255, 255); font-size: 16px; display: inline-block;
+}
+.tel span.font12 {
+	font-size: 12px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.yj {
+	font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px;
+}
+.yj span {
+	text-decoration: line-through;
+}
+.yh {
+	color: rgb(18, 0, 0); line-height: 26px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px;
+}
+.yh span {
+	color: rgb(255, 0, 0); font-size: 26px;
+}
+.bjiac {
+	background: rgb(212, 49, 31); color: rgb(255, 255, 255); line-height: 24px; font-size: 12px; font-weight: bold;
+}
+.bjiac1 {
+	color: rgb(255, 255, 0); line-height: 24px; font-size: 12px; font-weight: bold;
+}
+.jg_yh {
+	background: rgb(229, 229, 229); margin: 0px 5px; width: 310px; overflow: hidden; clear: both;
+}
+.jg_yh li {
+	height: 26px; line-height: 26px; font-size: 14px; border-bottom-color: rgb(186, 186, 186); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.jg_yh li span {
+	background: url("../images/jjsj_bg1.jpg") no-repeat right 0px rgb(212, 49, 31); margin: 0px 5px 0px 0px; padding: 0px 15px 0px 10px; height: 25px; color: rgb(255, 255, 255); display: inline-block;
+}
+.list li img {
+	margin: 0px auto; display: block;
+}
+.imgbk img {
+	display: block;
+}
+.caselist h4 {
+	margin: 0px; padding: 0px; text-align: center; color: rgb(2, 94, 179); line-height: 24px;
+}
+.caselist p {
+	padding: 0px 10px; display: block;
+}
+.fixednav {
+	width: 100%; text-align: center; bottom: 0px; line-height: 50px; font-size: 12px; position: fixed; z-index: 9999;
+}
+.fixednav table {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.fixednav td {
+	background: rgb(231, 106, 0); padding: 0px; border: currentColor; border-image: none; width: 50%; text-align: center; overflow: hidden; float: left;
+}
+.fixednav .fixbtn {
+	height: 50px; color: rgb(255, 255, 255); line-height: 75px; display: block;
+}
+.fixednav .fixbtn span {
+	width: 100%; height: 100%; text-align: center; line-height: 75px; display: block;
+}
+.fixednav #fixbtn1 span {
+	background: url("float_icon.png") no-repeat center -13px;
+}
+.fixednav #fixbtn2 span {
+	background: url("float_icon.png") no-repeat center -73px;
+}
+.fixednav #fixbtn3 span {
+	background: url("fixed.gif") no-repeat center 1px;
+}
+.fixednav #fixbtn4 span {
+	background: url("float_icon.png") no-repeat center -193px;
+}
+.fixednav a:hover {
+	background: url("fix_l.gif") 0px 0px;
+}

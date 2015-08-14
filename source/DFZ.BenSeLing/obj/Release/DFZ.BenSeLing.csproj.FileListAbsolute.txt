@@ -1,0 +1,10 @@
+F:\github\DFZ\source\DFZ.BenSeLing\obj\Release\DFZ.BenSeLing.csprojResolveAssemblyReference.cache
+F:\github\DFZ\source\DFZ.BenSeLing\bin\DFZ.BenSeLing.dll.config
+F:\github\DFZ\source\DFZ.BenSeLing\bin\DFZ.BenSeLing.dll
+F:\github\DFZ\source\DFZ.BenSeLing\bin\DFZ.BenSeLing.pdb
+F:\github\DFZ\source\DFZ.BenSeLing\bin\DB.dll
+F:\github\DFZ\source\DFZ.BenSeLing\bin\Newtonsoft.Json.Net20.dll
+F:\github\DFZ\source\DFZ.BenSeLing\bin\System.Data.SQLite.dll
+F:\github\DFZ\source\DFZ.BenSeLing\bin\DB.pdb
+F:\github\DFZ\source\DFZ.BenSeLing\obj\Release\DFZ.BenSeLing.dll
+F:\github\DFZ\source\DFZ.BenSeLing\obj\Release\DFZ.BenSeLing.pdb

@@ -2,3 +2,9 @@ C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\bin\Release\DB.dll
 C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\bin\Release\DB.pdb
 C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\obj\Release\DB.dll
 C:\Users\hp-pc\Documents\Visual Studio 2013\Projects\DFZ\DB\obj\Release\DB.pdb
+F:\github\DFZ\source\DB\obj\Release\DB.dll
+F:\github\DFZ\source\DB\obj\Release\DB.pdb
+F:\github\DFZ\source\DB\bin\Release\DB.dll
+F:\github\DFZ\source\DB\bin\Release\DB.pdb
+F:\github\DFZ\source\DB\bin\Release\System.Data.SQLite.dll
+F:\github\DFZ\source\DB\obj\Release\DB.csprojResolveAssemblyReference.cache

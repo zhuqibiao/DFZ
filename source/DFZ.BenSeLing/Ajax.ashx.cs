@@ -12,16 +12,16 @@ namespace DFZ.BenSeLing
     {
         public void ProcessRequest(HttpContext context)
         {
-            string Production = context.Request.Form["chanpin"];
+            string Production = context.Request.Form["product"];
             int OrderQty = 0;
-            int.TryParse(context.Request.Form["OrderQty"], out OrderQty);
-            string Consignee = context.Request.Form["lianxiren"];
-            string Phone = context.Request.Form["shouji"];
-            string sheng = context.Request.Form["sheng"];
-            string shi = context.Request.Form["shi"];
-            string xian = context.Request.Form["xian"];
-            string Address = context.Request.Form["dizhi"];
-            string Description = context.Request.Form["Description"];
+
+            string Consignee = context.Request.Form["name"];
+            string Phone = context.Request.Form["mob"];
+            string sheng = context.Request.Form["province3"];
+            string shi = context.Request.Form["city3"];
+            string xian = context.Request.Form["area3"];
+            string Address = context.Request.Form["addess"];
+            string Description = context.Request.Form["guest"];
 
 
             int savev = SaveOrder(Production, OrderQty, Consignee, Phone, sheng, shi, xian, Address, Description);
@@ -44,7 +44,6 @@ namespace DFZ.BenSeLing
 
                     SQLiteHelper sh = new SQLiteHelper(cmd);
 
-                    int count = sh.ExecuteScalar<int>("select count(*) from product;") + 1;
 
                     var dic = new Dictionary<string, object>();
                     dic["Production"] = Production;
@@ -57,7 +56,7 @@ namespace DFZ.BenSeLing
                     dic["Address"] = Address;
                     dic["Description"] = Description;
 
-                    vcount = sh.Insert("product", dic);
+                    vcount = sh.Insert("T_Order", dic);
 
                     conn.Close();
                 }

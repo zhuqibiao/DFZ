@@ -10,7 +10,16 @@ namespace DFZ.BenSeLing
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            string reqHost = Request.Url.Host;
+
+            if (reqHost.ToLower().StartsWith("wap."))
+            {
+                Response.Redirect("/Wap/WapIndex.aspx");
+            }
+            else if (reqHost.ToLower().StartsWith("admin."))
+            {
+                Response.Redirect("/Admin/Order.aspx");
+            }
         }
     }
 }

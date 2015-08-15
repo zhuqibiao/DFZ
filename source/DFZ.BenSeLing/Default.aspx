@@ -1,16 +1,897 @@
-ï»¿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DFZ.BenSeLing._Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DFZ.BenSeLing._Default" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0023) -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+<head>
+    <meta content="IE=7.0000"
+        http-equiv="X-UA-Compatible">
+    <title>±¾É«Áé-°×ñ°·çÕÚ¸ÇÒº-±¾É«Áé·ôÉ«ÕÚ¸ÇÒºÍêÃÀÕÚ¸Ç°×°ß!</title>
+    <meta name="GENERATOR" content="MSHTML 11.00.9600.17937">
+    <meta content="" ie="7.0000" http-equiv="X-UA-Compatible">
+    <meta name="description"
+        content="Î¨Ò»¹ú¼Ò·¢Ã÷×¨ÀûÕÚ¸Ç²úÆ·,±¾É«Áé°×ñ°·çÕÚ¸ÇÒºÍ¿Ä¨ºó²»ÓÃµÈ,µ±Ê±¼´¿ÉÍêÃÀÉÏÉ«,²»ÅÂË®Ï´,ÓÎÓ¾,Á÷º¹!È¨Íþ»ú¹¹¼ì²â,±¾É«ÁéÎÞ´Ì¼¤¸±×÷ÓÃ,¼æ¾ß·ÀÉ¹±£Êª»¤·ô¹¦ÄÜ,ÈÃÄú×ÔÐÅÃæ¶ÔÌå¼ì,ÃæÊÔ,Éç½»!">
+    <meta name="keywords" content="°×ñ°·çÕÚ¸ÇÒº,±¾É«Áé,±¾É«ÁéÕÚ¸ÇÒº">
+    <meta content="text/html; charset=gb2312" http-equiv="Content-Type">
+    <meta name="GENERATOR" content="MSHTML 8.00.7600.16930">
+    <link rel="stylesheet"
+        type="text/css" href="Content/base.css">
+    <script src="Scripts/jquery-1.8.2.min.js"></script>
+    <style type="text/css">
+        IMG {
+            FONT-SIZE: 12px;
+            PADDING-BOTTOM: 0px;
+            PADDING-TOP: 0px;
+            PADDING-LEFT: 0px;
+            MARGIN: 0px;
+            PADDING-RIGHT: 0px;
+            B-BOTTOM-STYLE: none;
+            B-RIGHT-STYLE: none;
+            B-TOP-STYLE: none;
+            B-LEFT-STYLE: none;
+        }
+
+        #top1 {
+            TEXT-DECORATION: none;
+            WIDTH: 980px;
+            COLOR: #666;
+            TEXT-ALIGN: left;
+            MARGIN: 0px auto 8px;
+        }
+
+        #top1_a {
+            OVERFLOW: hidden;
+            HEIGHT: 30px;
+            BACKGROUND: url(themes/aibangtao/images/top_a_bg.png);
+            LINE-HEIGHT: 30px;
+        }
+
+        .login {
+            TEXT-DECORATION: none;
+            WIDTH: 920px;
+            BACKGROUND: url(themes/aibangtao/images/login_bg.png) no-repeat right top;
+            COLOR: #666;
+            TEXT-ALIGN: left;
+            MARGIN: auto;
+        }
+
+        #demo {
+            OVERFLOW: hidden;
+            HEIGHT: 348px;
+            WHITE-SPACE: nowrap;
+        }
+
+            #demo LI {
+                PADDING-BOTTOM: 0px;
+                PADDING-TOP: 0px;
+                PADDING-LEFT: 8px;
+                LINE-HEIGHT: 24px;
+                PADDING-RIGHT: 8px;
+            }
+
+        .b_pj {
+            HEIGHT: 457px;
+            WIDTH: 690px;
+            OVERFLOW-X: hidden;
+            OVERFLOW-Y: scroll;
+            PADDING-BOTTOM: 8px;
+            PADDING-TOP: 8px;
+            PADDING-LEFT: 8px;
+            LINE-HEIGHT: 22px;
+            PADDING-RIGHT: 8px;
+        }
+
+            .b_pj STRONG {
+                FONT-SIZE: 13px;
+                WIDTH: 690px;
+                COLOR: #ff0000;
+                DISPLAY: block;
+                LINE-HEIGHT: 25px;
+            }
+
+        .STYLE3 {
+            FONT-SIZE: 10px;
+        }
+    </style>
+    <style type="text/css">
+        #divSuspended { width:150px; height: 400px; border: 0px solid #D4CD49; position:fixed;left:5px;top:5px }</style>
+
+    <script type="text/javascript">
+        function saveorder() {
+            if (postcheck() != false) {
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: "Ajax.ashx",
+                    dataType:'html',
+                    data: $('#wfform').serialize(),// ÄãµÄformid
+                    error: function (request) {
+                        alert("±§Ç¸£¬ÍøÂç¿ªÐ¡²îÁË£¬ÇëÔÙÌá½»Ò»ÏÂ");
+                    },
+                    success: function (data) {
+                        alert("¹§Ï²Äú£¬¶©¹º³É¹¦£¡");
+                    }
+                });
+            }
+        }
+    </script>
+
 </head>
-<body>
-    <form id="form1" runat="server">
-    <div>
     
+<script language="javascript" src="http://api.pop800.com/800.js?n=133860&s=01&p=l&l=cn"></script>
+<div style="display: none;"><a href="http://www.pop800.com">ÔÚÏß¿Í·þ</a></div>
+
+<body onselectstart="return false">
+     <div id="divSuspended"><img src="images/erweima.jpg" width="140px" border="0" /></div>
+
+    <div id="ad"
+        style="height: 39px; width: 100%; position: absolute; left: 0px; background-color: #ff9900">
+        <table cellspacing="0" cellpadding="0" width="980" align="center" b="0">
+            <tbody>
+                <tr>
+                    <td height="39" width="82" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="">ÍøÕ¾Ê×Ò³</a></td>
+                    <td height="39" width="93" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="#zgyl">ÕÚ¸ÇÔ­Àí</a></td>
+                    <td height="39" width="99" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="#fssy">·ÀË®ÊµÑé</a></td>
+                    <td height="39" width="93" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="#rhxsy">ÈÚºÏÐÔÊµÑé</a></td>
+                    <td height="39" width="87" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="#spys">ÊÓÆµÑÝÊ¾</a></td>
+                    <td height="39" width="83" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="#khfk">¿Í»§·´À¡</a></td>
+                    <td height="39" width="84" align="center"><a
+                        style="font-size: 14px; font-weight: bold; color: #fff"
+                        href="#dg">ÔÚÏß¶©¹º</a></td>
+                    <td width="274" align="center"><span
+                        style="font-size: 24px; font-weight: bold; color: #fff">TEL:400-6361-651</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <center></center>
     </div>
-    </form>
+    <script language="JavaScript" type="text/javascript">
+        function rightBottomAd() {
+            var abc = document.getElementById("ad");
+            abc.style.top = document.documentElement.scrollTop + document.documentElement.clientHeight -
+            39 + "px";//110ÊÇÕâ¸ö²ãµÄ¸ß¶È£» 
+            setTimeout(function () { rightBottomAd(); }, 39);
+        }
+        rightBottomAd();
+        function close_ad() {
+            ad.style.visibility = 'hidden';
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="Content/transport.js"></script>
+
+    <script type="text/javascript"
+        src="Content/utils.js"></script>
+
+    <table cellspacing="0" cellpadding="0" width="1000" align="center" b="0">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="Content/huodong1.gif"></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Content/adjg1.gif"></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Content/adjg2.gif"></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Content/adjg3.gif"></td>
+            </tr>
+            <tr>
+                <td>
+                    <img
+                        src="Content/topad.jpg"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <img
+            src="Content/01.jpg"><img
+                src="Content/02.jpg"><img
+                    src="Content/03.jpg"><img
+                        src="Content/04.jpg"><img
+                            src="Content/05.jpg"><img
+                                src="Content/06.jpg"><img
+                                    src="Content/07.jpg">
+    </div>
+    <div></div>
+    <div class="clear"></div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="top1_wrap">
+            <img src="Content/b_xgl.jpg">
+            <div></div>
+            <img src="Content/b_xgr.jpg">
+        </div>
+        <div class="top2_wrap">
+            <ul>
+                <li>
+                    <img src="Content/top2_bz.jpg">
+                </li>
+                <li>
+                    <img src="Content/top2_aq.jpg">
+                </li>
+                <li>
+                    <div class="top2_jb">
+                        <div id="colee_left" style="overflow: hidden">
+                            <table cellspacing="0" cellpadding="0" b="0">
+                                <tbody>
+                                    <tr>
+                                        <td id="colee_left1" valign="top" align="center">
+                                            <table cellspacing="0" cellpadding="2" b="0">
+                                                <tbody>
+                                                    <tr align="center">
+                                                        <td>
+                                                            <p>
+                                                                <img src="Content/1.jpg"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <img src="Content/2.jpg"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <img src="Content/3.jpg"></p>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <img
+                                                                    src="Content/4.jpg">
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td id="colee_left2"
+                                            valign="top"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="top3_wrap">
+            <div class="top3_left">
+                <img src="Content/top3_cp.jpg"
+                    align="left">
+                <div>
+                    <img src="Content/top3_bt.jpg">
+                    <p>
+                        Ó¢¹úÓÆÁ¢ÆÓ»ª¹«Ë¾Ö²Îï»¯×±Æ·ÊµÑéÊÒ½ÌÊÚÃ·ÄÉµÂ£¬¸ù¾ÝÆ¤·ôºÚÉ«ËØÐÎ³ÉµÄÔ­Àí£¬½øÐÐÈËÌå·ÂÉúÑ§µÄÄæÏòÑÐ¾¿£¬ÑÐÖÆ³É¹¦¿ÉÒÔÔÚÆ¤·ôÉú³ÉÀàºÚÉ«ËØµÄ¿Æ¼¼³É·Ö¡ª¡ªMelanoid(ºÚËØÉú³ÉÒò×Ó)¡£¸Ã³É¹û±»¿¯µÇÔÚÍ¬ÄêµÄÓ¢¹ú»Ê¼ÒÒ½Ñ§»áµÄºËÐÄÆÚ¿¯¡¶ÐÂÓ¢¸ñÀ¼Ò½Ñ§ÆÚ¿¯¡·¡£Melanoid(ºÚËØÉú³ÉÒò×Ó)ÊÇ¿ÆÑ§ÈËÔ±ÔÚºËÌÒÆ¤¡¢èÙ×Ó»¨¡¢»±»¨µÈÖ²ÎïÖÐ¿ÆÑ§ÝÍÈ¡¶øÀ´¡£<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; 
+Melanoid(ºÚËØÉú³ÉÒò×Ó)Í¨¹ýÓëÆ¤·ôÏ¸°ûµÄÓÎÀë°±»ùËá×÷ÓÃ£¬²úÉúÕý³£·ôÉ«¼«ÆäÏàËÆµÄ"×Ø·ô¾ÛºÏÎï"£¬¿ÆÑ§½ç°ÑÕâÖÖ·´Ó¦³ÆÖ®Îª"Ã·ÄÉ·´Ó¦"²¢µÃµ½¹ã·ºÈÏ¿É¡£<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;2008ÄêÖªÒ½ÌÃ´ÓÓ¢¹úÓÆÁ¢ÆÓ»ª¹«Ë¾Òý½ø¸Ã¼¼Êõ,¾­²»¶ÏÊµÑéÅä±È£¬ÑÐÖÆ³ö¸üÊÊºÏ¶«·½»ÆÉ«Æ¤·ô·ôÉ«ÌØµãµÄ<strong>±¾É«Áé·ôÉ«ÕÚ¸ÇÒº</strong>¡£±¾É«ÁéÓëÆ¤·ô½ÇÖÊ²ãÐÎ³ÉµÄÌìÈ»É«ËØ¾ßÓÐÉ«Ôó×ÔÈ»¡¢·ÀË®·Àº¹¡¢³Ö¾Ã¼°°²È«ÎÞ¶¾µÄÓÅÊÆ¡£
+                    </p>
+                </div>
+            </div>
+            <div class="top3_right">
+                <img
+                    src="Content/top3_bt2.jpg"><img
+                        src="Content/top3_blt.jpg">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="gg1">
+            <img
+                src="Content/b_gg1.jpg">
+        </div>
+    </div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="top3_wrap">
+            <div class="top4_left">
+                <a id="#zgyl" name="#zgyl"></a>
+                <img
+                    src="Content/top4_pic1.jpg"><img
+                        src="Content/top4_pic2.jpg"><img
+                            src="Content/top4_pic3.jpg"><img
+                                src="Content/top4_pic4.jpg">
+            </div>
+            <div class="b_right">
+                <div class="b_aqcs">
+                    <div class="b_aqbt">
+                        <img src="Content/b_aqcs.jpg"></div>
+                    <p>±¾É«Áé×÷ÎªÒ»¿îÕÚ¸Ç°×ñ°·çµÄ²úÆ·£¬°²È«ÐÔ×ÔÈ»ÊÇ¹Ø×¢µÄ½¹µã£¬ÌØ±ðÊÇ»á²»»áµ¼ÖÂ°×°ßÀ©É¢£¬ÏÂÃæÎÒÃÇ¿´¿´±¾É«ÁéµÄ°²È«ÐÔ²âÊÔ½á¹û°É¡£</p>
+                    <img
+                        src="Content/b_aqpic.jpg">
+                    <div class="b_csjg"><span>²âÊÔ½á¹û£º</span>±¾É«Áé·ôÉ«ÕÚ¸ÇÒº·Ç³£°²È«£¬¹ýÃôÂÊ¼«µÍ£¬¿ÉÒÔ·ÅÐÄÊ¹ÓÃ¡£</div>
+                </div>
+                <div class="b_aqcs">
+                    <div class="b_aqbt">
+                        <img src="Content/b_fscs.jpg"></div>
+                    <p>±¾É«Áé×÷ÎªÒ»¿î´¿Ö²ÎïµÄÕÚ¸Ç²úÆ·£¬·ÀË®ÐÔ×ÔÈ»·Ç³£ÖØÒª£¬Ò²ÊÇÆäÐ§¹ûºÃ»µµÄÖØÒªÖ¸±ê¡£</p>
+                    <img
+                        src="Content/b_fspic.jpg">
+                    <div class="b_csjg"><span>²âÊÔ½á¹û£º</span>±¾É«ÁéµÄ·ÀË®ÐÔÄÜ¼«ºÃ£¬Í¿Ä¨ºó5ÌìÄÚ·ôÉ«¸²¸ÇÂÊ¿ÉÔÚ60%ÒÔÉÏ¡£</div>
+                </div>
+                <div class="atop2_ys">
+                    <img src="Content/atop2_ys.jpg">
+                    <ul>
+                        <li>
+                            <img src="Content/atop2_bh1.jpg">×¨ÃÅÕë¶Ô¶«·½»ÆÉ«Æ¤·ôÈËÖÖÑÐÖÆ£» 
+                        </li>
+                        <li>
+                            <img src="Content/atop2_bh2.jpg">ÌìÈ»²Ý±¾ÝÍÈ¡Ö²Îï¾«»ª£¬É«Ôó×ÔÈ»£» 
+                        </li>
+                        <li>
+                            <img src="Content/atop2_bh3.jpg">È«²¿ÎªÊ³ÓÃ¼¶Ö²Îï³É·Ý£¬°²È«ÎÞ¶¾£» 
+                        </li>
+                        <li>
+                            <img src="Content/atop2_bh4.jpg">¸ß·Ö×ÓÂçºÏ×÷ÓÃ£¬·ÀË®³Ö¾Ã£» 
+                        </li>
+                        <li>
+                            <img
+                                src="Content/atop2_bh5.jpg">ÄÉÃ×¼¶Í¸Æø¿ÅÁ££¬²»¶ÂÈûÃ«¿×Í¸ÆøÊæÊÊ¡£ 
+                        </li>
+                    </ul>
+                    <img src="Content/atop2_pic1.jpg"><img
+                        src="Content/atop2_pic2.jpg">
+                </div>
+                <div class="top5_right">
+                    <img src="Content/top5_pic5.jpg">
+
+                    <div>
+                        <img src="Content/top5_pic6.jpg" align="left">
+                        <p class="top5_p1">½«±¾É«Áéìî½ÇÖÊÄý½ºÍ¿ÓÚ°×°ß´¦¡£</p>
+                        <p class="top5_p2">´òÈ¦ÇáÈá1-3·ÖÖÓ¡£</p>
+                        <img
+                            src="Content/top5_pic7.jpg" align="left">
+                        <p class="top5_p1">ìî³ýÍÑÂäµÄ½ÇÖÊ²ã£¬È»ºóÓÃÇåË®Ï´¾»ÁÀ¸É¡£</p>
+                        <p class="top5_p2">½«±¾É«ÁéÕÚ¸ÇÒº¼·ÈëÆ¿¸Ç¡£</p>
+                        <img
+                            src="Content/top5_pic8.jpg" align="left">
+                        <p class="top5_p1">ÕºÈ¡ÒºÌå£¬ÔÚÆ¿¿Ú´¦¹Î¸É±ÊË¢£¬¾¡Á¿¹ÎÖÁÃ»ÓÐÒºÌåÁ÷ÏÂ¡£</p>
+                        <p class="top5_p2">Æ½Õ¹Í¿Ä¨ÓÚ°×°ß´¦£¬×¢ÒâÉÙÁ¿¶à´ÎÔ­Ôò£¬ÒÔ´ïµ½¸ü¾ùÔÈ¡£</p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="clear"></div>-->
+            <div class="top5_left">
+                <a id="#fssy" name="#fssy"></a>
+                <img
+                    src="Content/top5_pic1.jpg"><img
+                        src="Content/top5_pic2.jpg"><img
+                            src="Content/top5_pic3.jpg"><img
+                                src="Content/top5_pic4.jpg">
+            </div>
+            <div class="top6_left">
+                <a id="#rhxsy" name="#rhxsy"></a>
+                <img
+                    src="Content/b_sy3_1.jpg"><img
+                        src="Content/b_sy3_2.jpg"><img
+                            src="Content/b_sy3_3.jpg"><img
+                                src="Content/b_sy3_4.jpg"><img
+                                    src="Content/b_sy3_5.jpg"><img
+                                        src="Content/b_sy3_6.jpg"><img
+                                            src="Content/b_sy3_7.jpg"><img
+                                                src="Content/b_sy3_8.jpg"><img
+                                                    src="Content/b_sy3_9.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="gg1">
+            <img src="Content/b_gg2.jpg"
+                b="0">
+        </div>
+    </div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="b_cpleft">
+            <div class="top7_left">
+                <span class="top7_pic1"><a id="#spys" name="#spys"></a>
+                    <img
+                        src="Content/top7_bt.jpg"></span>
+                <p>±¾É«ÁéÑ¡ÓÃºËÌÒÂÌÆ¤ÎªÖ÷Ô­ÁÏ,¼°ÆäËûÌìÈ»Ö²ÎïÎª¸¨ÁÏ¡£ºËÌÒÎ´ÍêÈ«³ÉÊìÇ°ÆäÓ²¿ÇÉÏÓÐÒ»²ãºñ¶ÈÔ¼4mmµÄÂÌÆ¤£¬ÓÃÊÖ¿Û¿ªÂÌÆ¤ºó£¬Æð³õÊÖÖ¸»á±ä»Æ£¬µ«5¸öÐ¡Ê±×óÓÒ¾Í»á±ä³É»ÆºÖÉ«£¬°ë¸öÔÂ¶¼²»»áµô¡£±¾É«ÁéµÄÕÚ¸ÇÔ­ÀíÍ¨Ë×À´½²¾ÍºÍºËÌÒÆ¤ÄÜÊ¹Æ¤·ô±ä»ÆºÖÉ«ÊÇÒ»¸öµÀÀí£¬Òò´Ë²»»áËðÉËÆ¤·ô¡£¸üÖØÒªµÄÊÇÓÐÐ§³É·Ö¾­Ö²ÎïÝÍÈ¡¼¼ÊõÌáÁ¶£¬ÌáÁ¶³öµÄÖ²Îï»îÐÔ¶àëÄMelanoid(ºÚËØÉú³ÉÒò×Ó)³ÊÄÉÃ×¼¶¿ÅÁ£×´Ì¬£¬ËùÒÔ²»ÂÛ´Ó°²È«ÐÔ»¹ÊÇÍ¸ÆøÐÔÀ´Ëµ¶¼ÊÇ×î°ôµÄ¿Æ¼¼²úÆ·¡£¾­´óÁ¿µÄÁÙ´²ÊµÑéÖ¤Êµ£¬¶Ô°×°ßÆ¤·ôÓÐ¾ø¼ÑµÄÕÚ¸ÇÐ§¹û£¬ÁíÍâ¶Ô°×°ßÖÎÁÆÓÐÒ»¶¨¸¨Öú×÷ÓÃ¡£Æ¤·ô´Ì¼¤ÐÔÊµÑéÖ¤Ã÷°²È«£¬ÎÞÈÎºÎ¶¾¸±×÷ÓÃ¡£</p>
+                <div>
+                    <img src="Content/top7_pic1.jpg"><img
+                        src="Content/top7_pic2.jpg"><img
+                            src="Content/top7_pic3.jpg"><img
+                                src="Content/top7_pic4.jpg">
+                </div>
+            </div>
+            <div class="b_cpjs">
+                <div class="b_spbt">
+                    <img src="Content/b_cpjs.jpg"></div>
+                <div
+                    class="b_cptext">
+                    <strong>¡¾³É·Ö¡¿</strong>·ôÉ«ÕÚ¸ÇÒº£ºÈ¥Àë×ÓË®£¬±û¶þ´¼£¬Â«°Å½º£¬Â«ÜöÒº£¬ºËÌÒÆ¤ÌáÈ¡Îï£¬èÙ×Ó»¨ÌáÈ¡Îï£¬»±»¨ÌáÈ¡Îï£¬Ìð²ËÌáÈ¡Òº£¬Èé<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ËáÄÆ£¬Ë«ÍÑË®É½ÀæÌÇ´¼¡£ìî½ÇÖÊÄý½º£ºÈ¥Àë×ÓË®¡¢±ûÏ©Ëáõ¥¹²¾ÛÎï¡¢Ä¾¹Ïµ°°×Ã¸¡¢Ü½ÈØ»¨ÌáÈ¡Îï¡¢JM-BP¡£
+                </div>
+                <div class="b_cptext"><strong>¡¾ÓÃÍ¾¡¿</strong>ÓÃÓÚÆ¤·ô°×°ßµÄÕÚ¸ÇÃÀÈÝ£¬ÓÃºó°×°ß³Ê×ÔÈ»·ôÉ«¡£</div>
+                <div
+                    class="b_cptext">
+                    <strong>¡¾×¢ÒâÊÂÏî¡¿</strong>1¡¢Æ¤·ôÊÜÉËÊ±²»½¨ÒéÊ¹ÓÃ±¾Æ·¡£<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2¡¢±¾Æ·ÎªÍâÓÃ£¬ÇëÖÃÓÚ¶ùÍ¯²»Ò×½Ó´¥µ½µÄµØ·½¡£
+                </div>
+                <div class="b_cptext">
+                    <strong>¡¾²úÆ·±ê×¼ºÅ¡¿</strong>·ôÉ«ÕÚ¸ÇÒº£ºQB/T 2286 
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ìî½ÇÖÊÄý½º£ºQ/TDVH 03
+                </div>
+                <div class="b_cppic">
+                    <img src="Content/b_cppic1.jpg"><img
+                        src="Content/b_cppic2.jpg"><a
+                            href="#dg"><img
+                                src="Content/b_cppic3.jpg" b="0"></a><img
+                                    src="Content/b_cppic4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="b_right">
+            <div class="top4_right">
+                <img src="Content/top4_pic5.jpg">
+                <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="282"
+                    height="281">
+                    <param name="movie" value="http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzY5OTM0OTk2=&amp;isAutoPlay=true&amp;isShowRelatedVideo=false&amp;embedid=-&amp;showAd=0 ">
+                    <param name="quality" value="high">
+                    <param name="wmode" value="opaque">
+                    <param name="swfversion" value="6.0.65.0">
+                    <param name="expressinstall" value="../themes/aibangtao/zhuanti/benseling/Scripts/expressInstall.swf">
+                </object>
+            </div>
+            <div class="atop2_tbtj">
+                <img src="Content/atop2_tbtj.jpg"
+                    align="left">
+                <ul>
+                    <img src="Content/rq.jpg" width="279" height="570">
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+    <div class="clear"></div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="gg1">
+            <a href="#dg">
+                <img
+                    src="Content/atop2_gg1.jpg" b="0"></a>
+        </div>
+    </div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="b_yhpj">
+            <div class="b_spbt">
+                <img src="Content/b_khfk.jpg"><a
+                    id="#khfk" name="#khfk"></a>
+            </div>
+            <div class="b_pj">
+                <strong>ÎªÊ²Ã´ÓÐÐ©ÈË±£³ÖµÄÊ±¼äÃ»ÓÐ5Ìì£¿ </strong>ÒÔÏÂ×ö·¨¿ÉÊÊµ±Ôö³¤±¾É«ÁéÐ§¹ûµÄÍ£ÁôÊ±¼ä£º 
+1£©ÓÃÈ¥½ÇÖÊÄý½ºìî³ýÆ¤·ôÀÏ»¯½ÇÖÊ²ã¡£Æ¤·ôÐÂÉú½ÇÖÊ²»Ò×ÍÑÂä£¬ºÍ±¾É«ÁéµÄ½áºÏÐ§¹û»á¸ü³Ö¾Ã¡£ 2£©ÓÃ·ÊÔí¼°ÈÈË®ÇåÏ´Í¿ÓÐ±¾É«ÁéµÄ²¿Î»¡£ 
+3£©²»ÒªÓÃÃ«½í¡¢ÊÖ±³¡¢Ö¸¼×ÓÃÁ¦Ä¦²ÁÍ¿Ä¨´¦¡£ <strong>Ê¹ÓÃ±¾É«ÁéÊ±£¬ÈôÊ¹ÓÃÆäËûÍâÓÃ²úÆ·ÔõÃ´? 
+</strong>±¾É«Áé²¢²»Ó°ÏìÆäËûÍâÓÃ²úÆ·µÄÊ¹ÓÃ¡£¶àÊý²úÆ·²»»áÓ°Ïì±¾É«ÁéÓëÆ¤·ôµÄ×÷ÓÃ£¬µ«ÊÇÎªÁË±ÜÃâÍ¿ÉÏ±¾É«Áéºó»¼´¦ÓëÕý³£Æ¤·ô²»ºÃÇø·Ö£¬½¨ÒéÏÈÍ¿ÍâÓÃ²úÆ·ºóÔÙÍ¿Ä¨±¾É«Áé¡£ 
+                <strong>Ó°Ïì±¾É«ÁéÐ§¹ûµÄÒòËØÓÐÄÄÐ©£¿ </strong>1¡¢»¼´¦°×°ßÇøÓòÄÚÓÐÉ«ËØµã£» 2¡¢ÆäËüÍâÓÃ²úÆ·½«»¼´¦×ÆÉË£¨Ô­°×°ß´¦ÑÕÉ«·¢ºì£¬ÖÜÈ¦Æ¤·ôÑÕÉ«·¢ºÚ£©£» 
+3¡¢°×°ßÃæ»ý¹ý´ó£¬²¡ÓÑÍ¿Ä¨²»¾ùÔÈ£» 4¡¢¾­³£Ä¦²ÁµÄ²¿Î»ÑÕÉ«±£³ÖÊ±¼ä½Ï¶Ì£¬Èç¾­³£·ü°¸¹¤×÷ÕßµÄÐ¡±ÛÏÂÔµ²¿Î»¡£ <strong>±¾É«ÁéÓÐÐÞ¸´Ð§¹ûÂð£¿ 
+</strong>±¾É«Áé·ôÉ«ÕÚ¸ÇÒºÖ÷Òª×÷ÓÃÊÇÕÚ¸ÇÆ¤·ô°×°ß£¬´Ó¶ø´ïµ½Õý³£·ôÉ«£¬ÎÞÐÞ¸´Ð§¹û¡£µ«¶ÔµÖÓùÄÜÁ¦Ïà¶Ô±¡ÈõµÄ°×°ßÆ¤·ôÓÐÒ»¶¨µÄ±£»¤×÷ÓÃ¡££¨1£©±¾É«Áé·ôÉ«ÕÚ¸ÇÒºÐÎ³ÉµÄÉ«ËØÄÜ¹»µÖÓù×ÏÍâÏß¶ÔÆ¤·ô°×°ßµÄ×ÆÉË£¬Æðµ½±£»¤×÷ÓÃ£»£¨2£©¶ÔÇéÖ¾ÒòËØµÄÓ°Ïì£¬°×°ß¸ø²¡ÓÑ´øÀ´ºÜ´óµÄÐÄÀí¸ºµ££¬ÕÚ¸Ç×¡ÁË°×°ß£¬²¡ÓÑµÄÐÄÇéµÃµ½ÁË¸ÄÉÆ£¬ÃâÒßÁ¦Ò²¾ÍÌá¸ßÁË£¬¶ÔÓÚ°×ñ°·çµÄ¿ØÖÆÓÐ½ÏºÃµÄ×÷ÓÃ¡£ 
+                <strong>ÎªÊ²Ã´»áÓÐ×ÅÉ«²»¾ùµÄÏÖÏó£¿ 
+                </strong>¿ÉÄÜÓÐÒÔÏÂ¼¸ÖÖÔ­Òò£ºÊ¹ÓÃ¹¤¾ß²»µ±¡£¶ÔÓÚÃæ»ý½Ï´óµÄ»¼Õß£¬½¨ÒéÊ¹ÓÃ¿íµÄÎüË®ÐÔÇ¿µÄÓÍ»­±ÊÍ¿Ä¨£¬ÕâÑù±ãÓÚÍ¿Ä¨¾ùÔÈ×ÔÈ»£»Í¿Ä¨·½·¨²»µ±¡£ÔÚÍ¿Ä¨±¾É«ÁéµÄÊ±ºòÒª×¢ÒâË³×ÅÆ¤·ôµÄÎÆÀí½øÐÐÍ¿Ä¨£¬ÕâÑù±ãÓÚÍ¿Ä¨¾ùÔÈ£¬·ñÔò¿ÉÄÜ»áÊ¹µÃÔÚÆ¤·ôñÞÖå´¦ÒºÌå»ý¾Û¹ý¶à£¬µ¼ÖÂ×ÅÉ«²»¾ù£»Ã«±ÊËùÕºÒºÌå¹ý¶à¡£Í¿Ä¨Ê±Ò»¶¨Òª×¢ÒâÊÊÁ¿µÄÔ­Ôò£¬Èç¹û¹ý¶à£¬ÓÉÓÚÒºÌåµÄÁ÷¶¯ÐÔºÍÆ¤·ôñÞÖåµÄÃ«Ï¸×÷ÓÃ»áµ¼ÖÂ×ÅÉ«²»¾ù¡£ 
+                <strong>±¾É«ÁéÄÜÕÚ¸Ç°×°ßµÄÔ­ÀíÊÇÊ²Ã´ 
+                </strong>±¾É«ÁéµÄ×÷ÓÃÔ­ÀíÊÇÆ¤·ôÉ«ËØÉú³ÉÔ­Àí¡£Ö÷Òª³É·ÝÑ¡ÓÃÓ¢¹úÓÆÁ¢ÆÓ»ª¹«Ë¾Æ¤·ôÃÀºÚ¼¼Êõ£­Melanoid(ºÚËØÉú³ÉÒò×Ó)£¬¸Ã³É·ÝÊÇÓÉºËÌÒÆ¤¡¢èÙ×Ó»¨¡¢»±»¨µÈÖ²ÎïÖÐ¿ÆÑ§ÝÍÈ¡¶øÀ´¡£Melanoid(ºÚËØÉú³ÉÒò×Ó)Í¨¹ýÓëÆ¤·ôÏ¸°ûµÄÓÎÀë°±»ùËá·¢Éú×÷ÓÃ£¬²úÉúÕý³£·ôÉ«¼«ÆäÏàËÆµÄ¡°×Ø·ô¾ÛºÏÎï¡±£¬´Ó¶ø´ïµ½ÕÚ¸ÇÐ§¹û¡£ 
+                <strong>ÎªÊ²Ã´±¾É«ÁéÊÇ×î°²È«µÄ£¿ 
+                </strong>±¾É«ÁéµÄÖ÷ÒªÔ­²ÄÁÏÈ«²¿Ñ¡×ÔÊ³ÓÃ¼¶µÄÖ²Îï£¨ºËÌÒÆ¤¡¢èÙ×Ó»¨¡¢»±»¨µÈ£©£¬Ö÷ÒªÔ­ÁÏÎªºËÌÒÂÌÆ¤£¬±±·½Õª¹ýºËÌÒµÄÈË¶¼ÖªµÀ£¬ÔÚºËÌÒ»¹Î´³ÉÊìÊ±ÓÐ²ãÂÌÆ¤£¬ÓÃÊÖ²¦¿ªÂÌÆ¤£¬¼¸·ÖÖÓºóÊÖÖ¸¾Í»á±ä³ÉºÖÉ«£¬°ë¸öÔÂ¶¼Ï´²»µô¡£±¾É«ÁéÕýÊÇÀûÓÃÕâ¸öÔ­ÀíÀ´´ïµ½°×°ßÆ¤·ôÕâ¸öÐ§¹û£¬±¾É«ÁéÊÇÊÀ½çÉÏÎ¨Ò»Ò»¿îÕÚ¸Ç°×°ßµÄºËÌÒÆ¤ÖÆ¼Á£¬Ëü¾ø¶ÔÊÇ×î°²È«µÄ¡£ 
+                <strong>ÓÃ±¾É«ÁéÊ±ÄÜ¹»Ê¹ÓÃ»¯×±Æ·Âð£¿ 
+                </strong>±¾É«Áé²¢²»Ó°ÏìÆäËû»¯×±Æ·µÄÈó·ôÐ§¹û£¬ÔÚÊ¹ÓÃ±¾É«ÁéÊ±¿ÉÒÔÊ¹ÓÃÆäËû»¯×±Æ·£¬µ«ÇëÔÚÍ¿Ä¨±¾É«Áé6Ð¡Ê±ºóÔÙÊ¹ÓÃ£¬ÒÔÃâÓ°Ïì×ÅÉ«Ð§¹û¡£ 
+            </div>
+        </div>
+        <div class="b_right">
+            <div class="b_rdzx">
+                <img src="Content/b_fhxx.jpg">
+                <table cellspacing="3" cellpadding="0" width="96%" b="0">
+                    <tbody>
+                        <tr>
+                            <td align="center">
+                                <img
+                                    src="Content/201203150207366910.jpg" width="238"
+                                    height="230"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <img
+                                    src="Content/201203150209124913.jpg" width="238"
+                                    height="230"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="shs_dgcp">
+            <img style="display: block"
+                src="Content/bdf_dg.jpg">
+            <table cellspacing="0" cellpadding="0" width="100%" b="0">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="Content/goumai.jpg" width="993"
+                                height="300" usemap="#Map" b="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div style="width: 1000px; background: #fff; margin: auto">
+        <div class="atop2_qybj">
+            <img
+                src="Content/atop_qybj.jpg"><img
+                    src="Content/atop2_zyt.jpg">
+            <p>ÖªÒ½ÌÃÊÇÒ»¸öÓÐ×Å16Äê±³¾°µÄÆóÒµ£¬´´½¨ÖÁ½ñÊ¼ÖÕ±ü³Ð"ÓÃ×îÁìÏÈµÄ¿Æ¼¼£¬Îª»¹Ô­ÉúÃüµÄ½¡¿µÃÀÀö¶ø²»Ð¸Å¬Á¦"µÄÉñÊ¥Ê¹Ãü£¬ÒÔ"Ì½Öª½¡¿µÖ®Ô´£¬´«µÝÃÀÀöÖ®µÀ£¬ÁÆÔ¡ÉíÐÄ£¬»¹Ô­ÉúÃüÇà´º¹â²Ê"Îª×ÚÖ¼£¬¶àÄêÀ´£¬²»¶Ï¿ªÍØÓë´´ÐÂ£¬ÔÚ±£½¡»¯×±Æ·µÄÑÐ¾¿ºÍ¿ª·¢£¬ÒÔ¼°¹ú¼Ê×îÐÂ¼¼ÊõºÍ¿ÆÑÐ³É¹ûµÄÔËÓÃ·½ÃæÈ¡µÃÁË¿ÉÏ²µÄ³É¾ÍÓëÒµ¼¨¡£</p>
+            <img
+                src="Content/atop_qydt.jpg">
+            <ul>
+                <li><a href="#" target="_blank">¡¤ÒåÎñÓëÔðÈÎ£¬ÊÇÆóÒµÎ´À´·¢Õ¹µÄÁé»ê 
+  2010-09-27</a> </li>
+                <li><a href="#" target="_blank">¡¤ÖªÒ½ÌÃµç×ÓÉÌÎñ×Ü¼à¸°µ±µ±Íø²Î¹Û.. 
+  2010-09-27</a> </li>
+                <li><a href="#" target="_blank">¡¤ÖªÒ½ÌÃÓ¦Ñû²Î¼Ó2010ÅÉ´úµç×ÓÉÌÎñ.. 
+  2010-08-28</a> </li>
+                <li><a href="#" target="_blank">¡¤ÖªÒ½ÌÃÈÙ»ñ20´ó×î¾ßÓ°ÏìÁ¦Æ·ÅÆ 
+  2010-08-31</a> </li>
+                <li><a href="#"
+                    target="_blank">¡¤ÖªÒ½ÌÃ´ú±íÎ÷±±Çø²Î¼ÓÓ®Ê±´úÈ«Çò...2010-08-31</a> </li>
+                <li><a href="#"
+                    target="_blank">¡¤ÖªÒ½ÌÃÃÀÐØ360¡ãôßÈéÁÆÉÌÕ½Ó¯ÀûÄ£..2010-08-21</a> </li>
+                <li><a href="#" target="_blank">¡¤·ÛºìË¿´ø´óÊ¹ ¹ù½¡²Î·ÃÖªÒ½ÌÃ 
+  2010-08-12 </a></li>
+                <li><a href="#" target="_blank">¡¤ÔÚÐ¦ÉùÖÐ¸ÐÊÜÍÅ½áµÄÁ¦Á¿ 2010-09-02 
+                </a></li>
+                <li><a href="#" target="_blank">¡¤²ß»®²¿ Å¬Á¦Ñ§Ï° ³Ö¾Ã·¢Õ¹ 
+  2010-09-02</a> </li>
+                <li><a href="#" target="_blank">¡¤·ÛºìË¿´ø´óÊ¹ ¹ù½¡²Î·ÃÖªÒ½ÌÃ 
+  2010-08-12 </a></li>
+            </ul>
+        </div>
+        <div class="atop2_pzbz">
+            <div class="atop2_bzbt">
+                <img
+                    src="Content/atop2_pzbz.jpg">
+            </div>
+            <img
+                src="Content/atop2_td1.jpg"><img
+                    src="Content/atop2_td2.jpg"><img
+                        src="Content/atop2_td3.jpg">
+        </div>
+        <div class="clear"></div>
+        <div class="atop2_zybz">
+            <div class="atop2_zybabt">
+                <img
+                    src="Content/atop2_zybz.jpg">
+            </div>
+            <img
+                src="Content/atop2_bzpic.jpg"><a id="dg"
+                    name="dg"></a>
+        </div>
+        <div class="clear"></div>
+        <div>
+            <table cellspacing="1" cellpadding="0" width="100%" bgcolor="#999999" b="0">
+                <tbody>
+                    <tr>
+                        <td bgcolor="#ffffff" width="30%">
+                            <table height="330" width="99%" b="0">
+                                <tbody>
+                                    <tr>
+                                        <td bgcolor="#f7d79c" height="30"><strong>·¢»õÍ¨Öª</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="demo">
+                                                <div id="demo1">
+                                                    <ul>
+                                                        <li>
+                                                        2015-1-8&nbsp;°²»ÕÎßºþÑîÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ºþ±±¾£ÖÝÖìÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÖîôßÊÐ³ÂÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÔÆÄÏÀ¥Ã÷ÊÐÀîÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÉòÑôÊÐÕÅÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;É½Î÷ÁÙ·ÚÔ¬Å®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ºÓ±±Ê¯¼Ò×¯ãÆÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¹ã¶«ÍõÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;Õã½­ÓàÒ¦ºÎÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;½­Î÷ÎâÏÈÉúÒ»ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÁÉÄþÉòÑôÕÅÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;Õã½­ÁõÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ºþ±±ÖÜÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¹ãÖÝÍõÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¸£½¨ÁÖÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÉÏº£»ÆÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;Õã½­ÓàÒ¦ºÎÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;½­Î÷ÎâÏÈÉúÒ»ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÁÉÄþÉòÑôÕÅÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;Õã½­ÁõÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ºþ±±ÖÜÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¹ãÖÝÍõÏÈÉúËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¸£½¨ÁÖÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÉÏº£»ÆÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;Õã½­ÓàÒ¦ºÎÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;½­Î÷ÎâÅ®Ê¿Ò»ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÁÉÄþÉòÑôÕÅÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;Õã½­ÁõÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ºþ±±ÖÜÏÈÉúËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¹ãÖÝÍõÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¸£½¨ÁÖÅ®Ê¿Á½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ÉÏº£»ÆÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;ºþ±±ÕÅÏÈÉúÁ½ºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;½­ËÕÀîÅ®Ê¿ËÄºÐÒÑ·¢ 
+              <li>
+                                                        2015-1-8&nbsp;¸£½¨¿ºÏÈÉúËÄºÐÒÑ·¢ 
+              <li>2015-1-8&nbsp;¹ãÎ÷ÃÏÅ®Ê¿Á½ºÐÒÑ·¢ </li>
+                                                    </ul>
+                                                </div>
+                                                <div id="demo2"></div>
+                                            </div>
+                                            <script type="text/javascript">
+                                                var speed = 40;
+                                                var ZJJDemo = document.getElementById('demo');
+                                                var ZJJDemo1 = document.getElementById('demo1');
+                                                var ZJJDemo2 = document.getElementById('demo2');
+                                                ZJJDemo2.innerHTML = ZJJDemo1.innerHTML
+                                                function Marquee1() {
+                                                    if (ZJJDemo2.offsetHeight - ZJJDemo.scrollTop <= 0)
+                                                        ZJJDemo.scrollTop -= ZJJDemo1.offsetHeight
+                                                    else {
+                                                        ZJJDemo.scrollTop++
+                                                    }
+                                                }
+                                                var MyMar1 = setInterval(Marquee1, speed)
+                                                ZJJDemo.onmouseover = function () { clearInterval(MyMar1) }
+                                                ZJJDemo.onmouseout = function () { MyMar1 = setInterval(Marquee1, speed) }
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td bgcolor="#ffffff" valign="top" width="70%">
+                            <script language="javascript" charset="gb2312"
+                                src="Content/PCASClass.js"></script>
+
+                            <table cellspacing="1" cellpadding="2" width="550" align="center" bgcolor="#cccccc"
+                                b="0">
+                                <form id="wfform" onsubmit="document.charset='gb2312';return postcheck()"
+                                    accept-charset="gb2312" method="post" name="wfform"
+                                    action="Ajax.ashx">
+                                    <tbody>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" colspan="2" align="left">
+                                                <input
+                                                    onchange="oprize1()" type="hidden" value="1" name="mun">
+                                                <input type="hidden"
+                                                    value="598" name="prize"></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>²úÆ·Ì×²Í</td>
+                                            <td bgcolor="#ffffff" height="30" width="569" align="left">
+                                                <input
+                                                    onclick="oprize1()" id="producta" class="dxk" checked type="radio"
+                                                    value="±¾É«Áé¡¾ÌåÑé×°¡¿1ºÐ×°-298Ôª|298Ôª" name="product">
+                                                <label
+                                                    for="producta">
+                                                    ±¾É«Áé¡¾ÌåÑé×°¡¿ ±¾É«Áé1ºÐ (298Ôª£©&nbsp; <span
+                                                        style="color: #f00">298Ôª</span></label>
+                                                <br>
+                                                <input onclick="oprize1()"
+                                                    id="productb" class="dxk" type="radio"
+                                                    value="±¾É«Áé¡¾Ç¿Ð§ÕÚ¸Ç×°¡¿ ±¾É«Áé2ºÐ£¨¼ÓËÍ1ºÐ£© 498Ôª|498" name="product">
+                                                <label
+                                                    for="productb2">
+                                                    ±¾É«Áé¡¾Ç¿Ð§ÕÚ¸Ç×°¡¿ ±¾É«Áé2ºÐ£¨¼ÓËÍ1ºÐ£© 498Ôª <span
+                                                        style="color: #f00">498Ôª</span></label>
+                                                <strong>(<span
+                                                    class="block">¹Ù·½ÍÆ¼ö) </span></strong>
+                                                <br>
+                                                <input onclick="oprize1()"
+                                                    id="productb" class="dxk" type="radio"
+                                                    value="±¾É«Áé¡¾ÍêÃÀÎÞè¦×°¡¿ ±¾É«Áé3ºÐ£¨¼ÓËÍ2ºÐ£© 698Ôª|698" name="product">
+                                                <label
+                                                    for="productb2">
+                                                    ±¾É«Áé¡¾ÍêÃÀÎÞè¦×°¡¿ ±¾É«Áé3ºÐ£¨¼ÓËÍ2ºÐ£© 698Ôª£©&nbsp;<span
+                                                        style="color: #f00">698Ôª</span></label>
+                                                <br>
+                                                <br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>ÄúµÄÐÕÃû</td>
+                                            <td bgcolor="#ffffff" height="35" align="left"><span class="bdr">
+                                                <input
+                                                    class="txt" size="35" name="name">
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>ÊÖ»úºÅÂë</td>
+                                            <td bgcolor="#ffffff" height="35" align="left"><span class="bdr">
+                                                <input
+                                                    class="txt" size="35" name="mob">
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>ËùÔÚµØÇø</td>
+                                            <td bgcolor="#ffffff" height="35" align="left"><span class="bdr">
+                                                <select
+                                                    name="province3">
+                                                </select>
+                                                <select name="city3"></select>
+                                                <select
+                                                    name="area3">
+                                                </select>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>ÏêÏ¸µØÖ·</td>
+                                            <td bgcolor="#ffffff" height="35" align="left"><span class="bdr">
+                                                <input
+                                                    class="txt" size="45" name="addess">
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>¸¶¿î·½Ê½</td>
+                                            <td bgcolor="#ffffff" height="35" align="left">
+                                                <input onclick="opay()"
+                                                    id="paya" class="dxk" checked type="radio" value="»õµ½¸¶¿î" name="pay">
+                                                <label
+                                                    for="paya">
+                                                    »õµ½¸¶¿î<font
+                                                        style="color: #bd0000; margin-left: 10px">Ñé»õÂúÒâºóÔÙ¸¶¿î</font></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" width="89" align="left"><span
+                                                style="color: #f00"><em>*</em></span>ÁôÑÔ</td>
+                                            <td bgcolor="#ffffff" height="30" align="left"><span class="bdr">
+                                                <textarea onfocus="if(value=='Çë¾¡¿ì·¢»õ£¬ËÍ»õÖ®Ç°Çëµç»°ÁªÏµ£¬Ð»Ð»£¡'){value=''}" onblur="if (value ==''){value='Çë¾¡¿ì·¢»õ£¬ËÍ»õÖ®Ç°Çëµç»°ÁªÏµ£¬Ð»Ð»£¡'}" rows="3" cols="45" name="guest">Çë¾¡¿ì·¢»õ£¬ËÍ»õÖ®Ç°Çëµç»°ÁªÏµ£¬Ð»Ð»£¡</textarea>
+                                            </span></td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#ffffff" height="30" colspan="2" align="center"><span
+                                                class="code" style="text-align: center">
+                                                <input class="send" type="button" value="Á¢¼´Ìá½»¶©µ¥" name="wfsubmit" onclick="saveorder();">
+                                            </span></td>
+                                        </tr>
+                                </form>
+                </tbody>
+            </table>
+            <script language="javascript"
+                defer>new PCAS("province3", "city3", "area3");</script>
+
+            <script type="text/javascript"
+                src="Content/sub1.js" charset="gb2312"></script>
+            </TD></TR></TBODY></TABLE>
+            <table width="100%" b="0">
+                <tbody>
+                    <tr>
+                        <td width="30%">&nbsp;</td>
+                        <td width="70%">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="clear"></div>
+        <div class="clear"></div>
+        <div></div>
+        <div></div>
+    </div>
+    <noscript></noscript>
+    <table cellspacing="0" cellpadding="0" width="975" align="center" b="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0" width="980" align="center" b="0">
+                        <tbody>
+                            <tr>
+                                <td height="2"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="0" cellpadding="0" width="980" align="center" b="0">
+                        <tbody>
+                            <tr>
+                                <td height="4"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="1" cellpadding="0" width="980" align="center" bgcolor="#cccccc"
+                        b="0">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#ffffff">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f7f8" align="center">
+                                    <img
+                                        src="Content/help_bg.png" width="968"
+                                        height="64"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="0" cellpadding="0" width="980" align="center" b="0">
+                        <tbody>
+                            <tr>
+                                <td height="4"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="0" cellpadding="0" width="979" align="center" b="0">
+                        <tbody>
+                            <tr>
+                                <td height="100" width="979" align="center">
+                                    <br>
+                                    È«¹ú¶©¹ºÈÈÏß£º400-6361-651 
+            <br>
+                                    ·þÎñÊ±¼ä£ºÖÜÒ»ÖÁÖÜÄ© ÔçÉÏ09:00¡ª¡ªÍíÉÏ23:00 ÊÛºó·þÎñ: 400-6361-651<br>
+                                    <br>
+                                    <br>
+                                    <span
+                                        class="STYLE3">ÍøÕ¾ÖÆ×÷ °æÈ¨£º¼ÃÄÏÊ±ÉÐÓêÉÌÃ³ÓÐÏÞ¹«Ë¾ 
+                                    </span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script language="javascript" type="text/javascript">
+        alert("ÖÐ¹ú315°²È«ÖÐÐÄÌáÊ¾£ºÄúÏÖÔÚ·ÃÎÊµÄÊÇ±¾É«Áé¹Ù·½³§¼Ò¶©¹ºÖÐÐÄ£¡×¨ÒµÈÏÖ¤£¬ÕýÆ·±£Ö¤£¡½÷·À¼ÙÃ°£¡ÂÌÉ«·ÅÐÄÍøÕ¾£¡");
+    </script>
+
 </body>
 </html>

@@ -41,7 +41,7 @@ namespace DFZ.BenSeLing
 
             if (count > 0)
             {
-                FormsAuthentication.SetAuthCookie(loginName, true);
+                FormsAuthentication.SetAuthCookie(loginName, false);
 
                 if(string.IsNullOrEmpty(Request["ReturnUrl"]))
                 {

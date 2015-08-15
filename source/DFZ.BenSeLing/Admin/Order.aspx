@@ -64,7 +64,6 @@
         function markread() {
             var row = $('#dg').datagrid('getSelected');
             if (row) {
-                alert(row.id);
                 //标记已读
                 $.ajax({
                     cache: false,
@@ -78,6 +77,7 @@
                     success: function (data) {
                         if (data == "1") {
                             alert("恭喜您，处理成功！");
+                            $('#dg').datagrid('reload');
                         }
                         else {
                             alert("抱歉，处理失败，请重试！");
@@ -93,26 +93,29 @@
         function del() {
             var row = $('#dg').datagrid('getSelected');
             if (row) {
-                //删除
-                $.ajax({
-                    cache: false,
-                    type: "POST",
-                    url: "DataService.ashx",
-                    data: "procType=delete&ID=" + row.ID,// 你的formid
-                    async: false,
-                    error: function (request) {
-                        alert("抱歉，删除成功，请重试！");
-                    },
-                    success: function (data) {
-                        if (data == "1") {
-                            alert("恭喜您，删除成功！");
-                            $('#dg').datagrid('reload');
+                if (confirm("确定要删除数据吗？")) {
+                    //删除
+                    $.ajax({
+                        cache: false,
+                        type: "POST",
+                        url: "DataService.ashx",
+                        data: "procType=delete&ID=" + row.ID,// 你的formid
+                        async: false,
+                        error: function (request) {
+                            alert("抱歉，删除成功，请重试！");
+                        },
+                        success: function (data) {
+                            if (data == "1") {
+                                alert("恭喜您，删除成功！");
+                                $('#dg').datagrid('reload');
+                            }
+                            else {
+                                alert("抱歉，处理失败，请重试！");
+                            }
                         }
-                        else {
-                            alert("抱歉，处理失败，请重试！");
-                        }
-                    }
-                });
+                    });
+                }
+                
             }
             else {
                 $.messager.alert('提示', "请选中行");

@@ -23,7 +23,7 @@
             <area shape="rect" coords="209,83,266,110" href="#" />
             <area shape="rect" coords="280,83,359,110" href="#cpjs" />
             <area shape="rect" coords="375,83,456,110" href="#pj" />
-            <area shape="rect" coords="468,82,586,111" href="#new" />
+            <area shape="rect" coords="468,82,586,111" href="news.aspx#new" />
             <area shape="rect" coords="597,83,680,110" href="#pzbz" />
             <area shape="rect" coords="693,83,776,111" href="#dg" />
         </map>

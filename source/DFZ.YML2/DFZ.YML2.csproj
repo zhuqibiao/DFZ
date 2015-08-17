@@ -51,9 +51,11 @@
   <ItemGroup>
     <Content Include="Admin.aspx" />
     <Content Include="css\css.css" />
+    <Content Include="css\cssnews.css" />
     <Content Include="Default.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\anniu.gif" />
+    <Content Include="Images\banner.jpg" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\dibu_bj.gif" />
     <Content Include="Images\erweima.jpg" />
@@ -178,6 +180,7 @@
     <Content Include="Images\xiaqingsu_xin.png" />
     <Content Include="Index.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="news.aspx" />
     <Content Include="order.aspx" />
     <Content Include="orders\12_jinshe.js" />
     <Content Include="orders\diqu.js" />
@@ -254,6 +257,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
     </Compile>
     <Compile Include="Order.ashx.cs">
       <DependentUpon>Order.ashx</DependentUpon>

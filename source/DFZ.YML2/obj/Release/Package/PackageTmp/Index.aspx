@@ -20,11 +20,11 @@
     <div class="wraper">
         <img src="images/home_02.jpg" border="0" usemap="#Map" />
         <map name="Map" id="Map">
-            <area shape="rect" coords="209,83,266,110" href="index.html" />
-            <area shape="rect" coords="280,83,359,110" href="index.html#cpjs" />
-            <area shape="rect" coords="375,83,456,110" href="index.html#pj" />
-            <area shape="rect" coords="468,82,586,111" href="news.html#new" />
-            <area shape="rect" coords="597,83,680,110" href="index.html#pzbz" />
+            <area shape="rect" coords="209,83,266,110" href="#" />
+            <area shape="rect" coords="280,83,359,110" href="#cpjs" />
+            <area shape="rect" coords="375,83,456,110" href="#pj" />
+            <area shape="rect" coords="468,82,586,111" href="#new" />
+            <area shape="rect" coords="597,83,680,110" href="#pzbz" />
             <area shape="rect" coords="693,83,776,111" href="#dg" />
         </map>
         <img src="images/home_04.jpg" /><img src="images/home_05.jpg" /><img src="images/home_06.jpg" /><img src="images/home_07.jpg" /><img src="images/home_08.jpg" /><img src="images/home_09.jpg" /><img src="images/home_10.jpg" /><img src="images/home_11.jpg" /><img src="images/home_12.jpg" /><img src="images/home_13.jpg" /><img src="images/home_14.jpg" /><img src="images/home_15.jpg" /><img src="images/home_16.jpg" /><img src="images/home_17.jpg" /><img src="images/home_18.jpg" /><a name="cpjs"></a><img src="images/home_19.jpg" /><img src="images/home_20.jpg" />

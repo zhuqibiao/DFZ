@@ -47,7 +47,7 @@
                         <td width="49%" height="34" align="middle" bgcolor="#ab6e15" class="cborder"><a href="#yuanli">祛除白斑原理</a></td>
                     </tr>
                     <tr>
-                        <td height="34" width="49%" align="middle">成功案例<a href="#product"></a></td>
+                        <td height="34" width="49%" align="middle"><a href="#product">成功案例</a></td>
                         <td class="cborder" height="34" width="49%" align="middle"><a href="#order">在线填写订单</a><a href="#youshi"></a></td>
                     </tr>
                 </table>

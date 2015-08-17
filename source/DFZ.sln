@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miniui", "miniui\miniui.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFZ.BenSeLing", "DFZ.BenSeLing\DFZ.BenSeLing.csproj", "{7B3E1170-E241-4C10-B06F-9007F7D31B68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeSqlitePwd", "ChangeSqlitePwd\ChangeSqlitePwd.csproj", "{C1BA32B8-A597-4023-84A1-863CEB0E9F1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7B3E1170-E241-4C10-B06F-9007F7D31B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B3E1170-E241-4C10-B06F-9007F7D31B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B3E1170-E241-4C10-B06F-9007F7D31B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BA32B8-A597-4023-84A1-863CEB0E9F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BA32B8-A597-4023-84A1-863CEB0E9F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BA32B8-A597-4023-84A1-863CEB0E9F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BA32B8-A597-4023-84A1-863CEB0E9F1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

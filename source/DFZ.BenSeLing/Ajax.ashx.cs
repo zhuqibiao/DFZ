@@ -40,6 +40,7 @@ namespace DFZ.BenSeLing
                 using (SQLiteCommand cmd = new SQLiteCommand())
                 {
                     cmd.Connection = conn;
+                    conn.SetPassword(config.DBPwd);
                     conn.Open();
 
                     SQLiteHelper sh = new SQLiteHelper(cmd);

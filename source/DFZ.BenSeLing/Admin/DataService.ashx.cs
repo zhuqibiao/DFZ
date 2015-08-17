@@ -48,6 +48,7 @@ namespace DFZ.BenSeLing.Admin
                 using (SQLiteCommand cmd = new SQLiteCommand())
                 {
                     cmd.Connection = conn;
+                    conn.SetPassword(config.DBPwd);
                     conn.Open();
 
                     SQLiteHelper sh = new SQLiteHelper(cmd);
@@ -73,6 +74,7 @@ namespace DFZ.BenSeLing.Admin
                 using (SQLiteCommand cmd = new SQLiteCommand())
                 {
                     cmd.Connection = conn;
+                    conn.SetPassword(config.DBPwd);
                     conn.Open();
 
                     SQLiteHelper sh = new SQLiteHelper(cmd);
@@ -99,7 +101,9 @@ namespace DFZ.BenSeLing.Admin
                 using (SQLiteCommand cmd = new SQLiteCommand())
                 {
                     cmd.Connection = conn;
+                    conn.SetPassword(config.DBPwd);
                     conn.Open();
+                    //conn.ChangePassword(config.DBPwd);
 
                     SQLiteHelper sh = new SQLiteHelper(cmd);
 

@@ -13,5 +13,14 @@ namespace DFZ.BenSeLing
                 return string.Format("data source={0}",  System.Web.HttpContext.Current.Server.MapPath("~/App_Data/benseling.db"));
             }
         }
+
+        public static string DBPwd
+        {
+            get
+            {
+                return "zhuqb";
+            }
+        }
+
     }
 }

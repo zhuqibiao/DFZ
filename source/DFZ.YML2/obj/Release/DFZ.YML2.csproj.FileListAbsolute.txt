@@ -6,3 +6,12 @@ C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\obj\Release\DF
 C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\obj\Release\DFZ.YML2.pdb
 C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DB.dll
 C:\Users\hp-pc\documents\visual studio 2013\Projects\DFZ\DFZ.YML2\bin\DB.pdb
+F:\github\DFZ\source\DFZ.YML2\bin\DFZ.YML2.dll.config
+F:\github\DFZ\source\DFZ.YML2\bin\DFZ.YML2.dll
+F:\github\DFZ\source\DFZ.YML2\bin\DFZ.YML2.pdb
+F:\github\DFZ\source\DFZ.YML2\bin\DB.dll
+F:\github\DFZ\source\DFZ.YML2\bin\System.Data.SQLite.dll
+F:\github\DFZ\source\DFZ.YML2\bin\DB.pdb
+F:\github\DFZ\source\DFZ.YML2\obj\Release\DFZ.YML2.csprojResolveAssemblyReference.cache
+F:\github\DFZ\source\DFZ.YML2\obj\Release\DFZ.YML2.dll
+F:\github\DFZ\source\DFZ.YML2\obj\Release\DFZ.YML2.pdb

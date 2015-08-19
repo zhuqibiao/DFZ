@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../jquery-easyui-1.4.3/themes/icon.css">
 	<script type="text/javascript" src="../jquery-easyui-1.4.3/jquery.min.js"></script>
 	<script type="text/javascript" src="../jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
+    <script src="../jquery-easyui-1.4.3/locale/easyui-lang-zh_CN.js"></script>
 </head>
 <body>
     <h2>本色灵订单处理系统</h2>
@@ -22,7 +23,7 @@
 				<div title="订单信息" style="padding:10px;">
                     <br />
                     <table id="dg" class="easyui-datagrid" style="width:100%;"  
-                        data-options="url:'DataService.ashx',idField:'ID', fitColumns:true,singleSelect:true,selectOnCheck:true,checkOnSelect:true,toolbar:toolbar,rownumbers:true">  
+                        data-options="url:'DataService.ashx',idField:'ID', fitColumns:true,singleSelect:true,selectOnCheck:true,checkOnSelect:true,toolbar:toolbar,rownumbers:true,pagination:true,pageSize: 10">  
                         <thead data-options="frozen:true">
                             <tr>
                                 <th data-options="field:'ck',checkbox:true"></th>

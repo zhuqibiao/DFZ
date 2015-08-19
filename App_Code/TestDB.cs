@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Text;
 
 namespace Test
 {
@@ -11,6 +12,45 @@ namespace Test
             string sql = "select * from t_order";
             ArrayList data = DBUtil.Select(sql);
             return data;
+        }
+
+        //public int GetOrdersCount(string strWhere)
+        //{
+        //    StringBuilder strSql = new StringBuilder();
+
+        //    strSql.Append("SELECT count(1) FROM t_order  ");
+        //    if (!string.IsNullOrEmpty(strWhere.Trim()))
+        //    {
+        //        strSql.Append(" WHERE " + strWhere);
+        //    }
+
+            
+        //}
+
+        public ArrayList GetOrdersByPage(string strWhere, string orderby, int startIndex, int endIndex)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("SELECT * FROM ( ");
+            strSql.Append(" SELECT ROW_NUMBER() OVER (");
+            if (!string.IsNullOrEmpty(orderby.Trim()))
+            {
+                strSql.Append("order by T." + orderby);
+            }
+            else
+            {
+                strSql.Append("order by T.ScoreStyleID desc");
+            }
+            strSql.Append(")AS Row, T.*  from t_order T ");
+            if (!string.IsNullOrEmpty(strWhere.Trim()))
+            {
+                strSql.Append(" WHERE " + strWhere);
+            }
+            strSql.Append(" ) TT");
+            strSql.AppendFormat(" WHERE TT.Row between {0} and {1}", startIndex, endIndex);
+
+            ArrayList data = DBUtil.Select(strSql.ToString());
+            return data;
+
         }
 
 

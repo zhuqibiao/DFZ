@@ -1,0 +1,6 @@
+F:\github\DFZ\source\ChangeSqlitePwd\bin\Debug\ChangeSqlitePwd.exe
+F:\github\DFZ\source\ChangeSqlitePwd\bin\Debug\ChangeSqlitePwd.pdb
+F:\github\DFZ\source\ChangeSqlitePwd\bin\Debug\System.Data.SQLite.dll
+F:\github\DFZ\source\ChangeSqlitePwd\obj\Debug\ChangeSqlitePwd.csprojResolveAssemblyReference.cache
+F:\github\DFZ\source\ChangeSqlitePwd\obj\Debug\ChangeSqlitePwd.exe
+F:\github\DFZ\source\ChangeSqlitePwd\obj\Debug\ChangeSqlitePwd.pdb

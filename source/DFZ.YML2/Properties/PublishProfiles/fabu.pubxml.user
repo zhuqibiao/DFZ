@@ -13,16 +13,19 @@
       <publishTime>07/30/2015 17:57:49</publishTime>
     </File>
     <File Include="bin/DB.dll">
-      <publishTime>08/14/2015 23:28:56</publishTime>
+      <publishTime>08/17/2015 18:15:36</publishTime>
     </File>
     <File Include="bin/DFZ.YML2.dll">
-      <publishTime>08/17/2015 15:24:38</publishTime>
+      <publishTime>08/19/2015 09:11:43</publishTime>
     </File>
     <File Include="bin/System.Data.SQLite.dll">
       <publishTime>08/14/2015 17:51:07</publishTime>
     </File>
     <File Include="css/css.css">
       <publishTime>08/17/2015 14:36:35</publishTime>
+    </File>
+    <File Include="css/cssnews.css">
+      <publishTime>08/17/2015 18:58:41</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>07/23/2015 17:51:50</publishTime>
@@ -32,6 +35,9 @@
     </File>
     <File Include="Images/anniu.gif">
       <publishTime>07/24/2015 17:57:48</publishTime>
+    </File>
+    <File Include="Images/banner.jpg">
+      <publishTime>08/17/2015 19:29:35</publishTime>
     </File>
     <File Include="Images/bullet.png">
       <publishTime>07/24/2015 17:57:48</publishTime>
@@ -400,10 +406,13 @@
       <publishTime>07/24/2015 17:57:50</publishTime>
     </File>
     <File Include="Index.aspx">
-      <publishTime>08/17/2015 15:24:13</publishTime>
+      <publishTime>08/19/2015 09:00:38</publishTime>
     </File>
     <File Include="Login.aspx">
       <publishTime>07/24/2015 17:57:14</publishTime>
+    </File>
+    <File Include="news.aspx">
+      <publishTime>08/19/2015 09:00:31</publishTime>
     </File>
     <File Include="Order.ashx">
       <publishTime>07/24/2015 17:57:09</publishTime>
@@ -535,7 +544,7 @@
       <publishTime>07/24/2015 17:57:18</publishTime>
     </File>
     <File Include="Wap/WapIndex.aspx">
-      <publishTime>08/17/2015 15:29:35</publishTime>
+      <publishTime>08/19/2015 09:00:58</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>08/17/2015 15:24:39</publishTime>

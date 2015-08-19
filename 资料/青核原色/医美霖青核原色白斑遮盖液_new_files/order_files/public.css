@@ -1,0 +1,132 @@
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	font: 12px/normal "ËÎÌå", Arial, Verdana; text-align: left; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+ul {
+	display: block; list-style-type: none; list-style-image: none;
+}
+li {
+	display: block; list-style-type: none; list-style-image: none;
+}
+input {
+	font: 100%/normal arial, helvetica, clean, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font: 100%/normal arial, helvetica, clean, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 100%/normal arial, helvetica, clean, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+em {
+	color: rgb(255, 0, 0); font-style: normal; margin-right: 6px;
+}
+img {
+	border: 0px currentColor; vertical-align: middle;
+}
+a img {
+	border: 0px currentColor; vertical-align: middle;
+}
+.red {
+	color: rgb(255, 0, 0);
+}
+#wforder {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 10px; border: 3px solid rgb(213, 5, 0);
+}
+.wforderl {
+	float: left;
+}
+.wforderr {
+	width: 290px; padding-left: 20px; border-left-color: currentColor; border-left-width: 2px; border-left-style: dotted; float: right;
+}
+.wforderl {
+	overflow: hidden;
+}
+.wforderr {
+	overflow: hidden;
+}
+.wftitle {
+	height: 40px; color: rgb(255, 0, 0); line-height: 40px; overflow: hidden; font-family: "ºÚÌå"; font-size: 15px; margin-bottom: 10px;
+}
+.bdbox li {
+	padding: 4px 0px 0px; height: 30px; line-height: 20px; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: solid; _padding: 0;
+}
+.bdbox li input.dxk {
+	padding: 1px 1px 0px 0px; width: 15px; height: 15px; color: rgb(255, 0, 0); float: left; display: block; cursor: pointer; background-color: rgb(230, 230, 230);
+}
+.bdbox li label {
+	margin: 0px 20px 0px 6px; height: 18px; line-height: 18px; float: left; display: block; cursor: pointer;
+}
+.bdbox li span.bdl {
+	text-align: right; line-height: 24px; float: left;
+}
+.bdbox li span.bdr {
+	padding-left: 10px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; float: right;
+}
+.bdbox li span.bdr #showprit {
+	margin: 0px 5px; color: rgb(255, 102, 0); clear: both; font-family: Arial, Verdana; font-size: 14px; font-weight: bold; display: inline;
+}
+.select {
+	padding: 3px 6px; border: 1px solid rgb(204, 204, 204); float: left; display: inline;
+}
+.select div {
+	float: left;
+}
+.select > div {
+	overflow: hidden;
+}
+.select div select {
+	color: rgb(204, 0, 0); font-size: 14px; background-color: rgb(255, 255, 255);
+}
+* html .select div select {
+	margin: -2px; float: left; display: block;
+}
+.select div > select {
+	margin: -2px; float: none; display: block;
+}
+.select:hover {
+	border: 1px solid rgb(153, 153, 153);
+}
+.bdbox li.next {
+	border: currentColor; height: 30px; margin-top: 5px;
+}
+.bdbox li span.bdr .payaa {
+	height: 25px; padding-top: 3px;
+}
+.bdbox li span.bdr .paybb {
+	background: url("../orders/tel.gif") no-repeat left; padding: 8px 6px 0px; border: 1px dotted rgb(204, 204, 204); height: 45px; color: rgb(189, 0, 0);
+}
+.bdbox li.code img {
+	width: 48px; height: 26px; vertical-align: middle; cursor: pointer;
+}
+.bdbox li span.bdr input.txt {
+	background: url("../orders/txtbg.jpg") repeat-x; padding: 0px 6px; border: 1px solid rgb(200, 200, 200); height: 22px; color: rgb(0, 102, 0); line-height: 22px; font-size: 14px; vertical-align: middle;
+}
+.bdbox li span.bdr input.txt2 {
+	width: 50px; height: 26px; text-align: center; line-height: 26px; font-weight: bold; margin-right: 5px; vertical-align: middle;
+}
+.bdbox li span.bdr textarea.guest {
+	padding: 6px; border: 1px solid rgb(200, 200, 200); color: rgb(0, 102, 0); font-size: 12px;
+}
+.bdbox li input.send {
+	padding: 2px 0px 0px; border: 0px currentColor; width: 95px; height: 30px; color: rgb(255, 255, 255); font-size: 14px; vertical-align: middle; cursor: pointer;
+}
+.suba {
+	background: url("../orders/subb.gif") no-repeat; margin-left: 110px; float: left;
+}
+.subb {
+	background: url("../orders/subb.gif") no-repeat;
+}
+#wffahuo {
+	padding: 0px 0px 0px 15px; width: 275px; color: rgb(102, 102, 102); line-height: 1.8em; margin-bottom: 10px;
+}

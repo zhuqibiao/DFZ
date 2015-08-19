@@ -1,0 +1,135 @@
+body {
+	background: rgb(0, 170, 170); font: 14px/24px "ËÎÌו"; margin: 0px; padding: 0px; color: rgb(87, 87, 87); font-size-adjust: none; font-stretch: normal;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+img {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+label {
+	margin: 0px; padding: 0px;
+}
+br {
+	margin: 0px; padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+a {
+	color: rgb(87, 87, 87); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 0, 0);
+}
+.clear {
+	height: 0px; line-height: 0px; clear: both; font-size: 0px; display: block; -ms-zoom: 0;
+}
+.black5 {
+	height: 5px; line-height: 5px; clear: both; font-size: 0px; display: block;
+}
+.black8 {
+	height: 8px; line-height: 8px; clear: both; font-size: 0px; display: block;
+}
+.black10 {
+	height: 10px; line-height: 10px; clear: both; font-size: 0px; display: block;
+}
+.black20 {
+	height: 20px; line-height: 20px; clear: both; font-size: 0px; display: block;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.imgfl {
+	margin-right: 10px; float: left;
+}
+.imgfr {
+	margin-left: 10px; float: right;
+}
+.tc {
+	text-align: center;
+}
+.wraper {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 1000px; clear: both;
+}
+.foot {
+	width: 100%; text-align: center; padding-top: 30px; padding-bottom: 80px; clear: both;
+}
+#bottom_ad {
+	background: url("../images/dibu_bj.gif") repeat-x center; margin: 0px auto; border: 0px solid rgb(181, 181, 181); border-image: none; width: 100%; height: auto; text-align: center; right: 0px; bottom: -1px; overflow: hidden; position: fixed;
+}
+#bottom_ad img {
+	vertical-align: bottom;
+}
+.news {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 20px; width: 960px; clear: both;
+}
+.news h2 {
+	background: rgb(233, 233, 233); font: bold 16px/26px "ËÎÌו"; margin: 5px 0px; padding: 3px 10px; color: rgb(255, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.news h3 {
+	font: bold 14px/24px "ËÎÌו"; color: rgb(1, 129, 129); font-size-adjust: none; font-stretch: normal;
+}
+.news .p1 a {
+	background: rgb(255, 240, 194); padding: 3px 5px; color: rgb(0, 0, 0);
+}
+.news .p1 a:hover {
+	background: rgb(204, 204, 204); padding: 3px 5px; color: rgb(8, 34, 197);
+}
+.news strong {
+	color: rgb(0, 0, 0);
+}

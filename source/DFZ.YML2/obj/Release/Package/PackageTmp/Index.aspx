@@ -8,7 +8,15 @@
     <link href="css/css.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         #divSuspended { width:150px; height: 400px; border: 0px solid #D4CD49; position:fixed;left:5px;top:5px }</style>
-
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?42292f4449cefb4e1bbc6bbe3347f79b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+</script>
 </head>
 
 <script language="javascript" src="http://api.pop800.com/800.js?n=133860&s=01&p=l&l=cn"></script>
@@ -23,7 +31,7 @@
             <area shape="rect" coords="209,83,266,110" href="#" />
             <area shape="rect" coords="280,83,359,110" href="#cpjs" />
             <area shape="rect" coords="375,83,456,110" href="#pj" />
-            <area shape="rect" coords="468,82,586,111" href="#new" />
+            <area shape="rect" coords="468,82,586,111" href="news.aspx#new" />
             <area shape="rect" coords="597,83,680,110" href="#pzbz" />
             <area shape="rect" coords="693,83,776,111" href="#dg" />
         </map>

@@ -13,7 +13,7 @@ namespace DFZ.YML
         {
             string reqHost = Request.Url.Host;
 
-            if (reqHost.ToLower().StartsWith("wap."))
+            if (reqHost.ToLower().StartsWith("wap.") || reqHost.ToLower().StartsWith("m."))
             {
                 Response.Redirect("/Wap/WapIndex.aspx");
             }

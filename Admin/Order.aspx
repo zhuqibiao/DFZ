@@ -9,9 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="../jquery-easyui-1.4.3/themes/icon.css">
 	<script type="text/javascript" src="../jquery-easyui-1.4.3/jquery.min.js"></script>
 	<script type="text/javascript" src="../jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="../jquery-easyui-1.4.3/locale/easyui-lang-zh_CN.js"></script>
 </head>
 <body>
-    <h2>XXX 系统</h2>
+    <h2></h2>
     <div style="margin:20px 0;"></div>
     <div class="easyui-layout" style="width:100%;height:650px;">
         <div id="p" data-options="region:'west'" title="菜单项" style="width:15%;padding:10px">
@@ -24,7 +25,7 @@
 				<div title="订单信息" style="padding:10px;">
                     <br />
                     <table id="dg" class="easyui-datagrid" style="width:100%;"  
-                        data-options="url:'DataService.ashx',idField:'ID', fitColumns:true,singleSelect:true,selectOnCheck:true,checkOnSelect:true,toolbar:toolbar,rownumbers:true">  
+                        data-options="url:'DataService.ashx',idField:'ID', fitColumns:true,singleSelect:true,selectOnCheck:true,checkOnSelect:true,toolbar:toolbar,rownumbers:true, pagination:true">  
                         <thead data-options="frozen:true">
                             <tr>
                                 <th data-options="field:'ck',checkbox:true"></th>
@@ -46,6 +47,21 @@
     </div>
 
     <script type="text/javascript">
+        $(function () {
+            var p = ('#dg').datagrid('getPager'); (p).pagination({
+                beforePageText: '第',//页数文本框前显示的汉字  
+                afterPageText: '页    共 {pages} 页',
+                displayMsg: '共{total}条数据',
+
+            });
+
+        });
+
+
+
+
+
+
         var toolbar = [{
             text: '处理',
             iconCls: 'icon-edit',

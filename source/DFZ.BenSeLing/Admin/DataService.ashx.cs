@@ -33,8 +33,13 @@ namespace DFZ.BenSeLing.Admin
             }
             else
             {
-                DataTable dt = GetOrderList();
-                json = JSON.Encode(dt);
+                int pageRows = 0;
+                int.TryParse(context.Request.Form["rows"],out pageRows);
+                int page = 0;
+                int.TryParse(context.Request.Form["page"],out page);
+
+
+                json = GetOrderList(pageRows, page);
 
             }
             context.Response.Write(json);
@@ -93,9 +98,10 @@ namespace DFZ.BenSeLing.Admin
         }
 
 
-        public DataTable GetOrderList()
+        public string  GetOrderList(int pageRows,int page)
         {
-            DataTable dt = new DataTable();
+            Dictionary<string, object> pageResult = new Dictionary<string, object>();
+
             using (SQLiteConnection conn = new SQLiteConnection(config.DataSource))
             {
                 using (SQLiteCommand cmd = new SQLiteCommand())
@@ -107,8 +113,13 @@ namespace DFZ.BenSeLing.Admin
 
                     SQLiteHelper sh = new SQLiteHelper(cmd);
 
+                    //总记录数
+                    string totalSql = "Select count(1) From T_order";
 
-                    string sql = @"SELECT ID,[Production]
+                    long total = (long)sh.ExecuteScalar(totalSql);
+                    int offset = (page - 1) * pageRows;
+
+                    string sql = string.Format(@"SELECT ID,[Production]
                                     ,[Consignee]
                                     ,[Phone]
                                     ,[sheng]
@@ -123,14 +134,18 @@ namespace DFZ.BenSeLing.Admin
 	                                end as status,
                                     BuildTime
                                 FROM [T_Order]
-                            Order by Status asc ,buildTime desc";
+                            Order by Status asc ,buildTime desc
+                        limit {0} offset {1} ",pageRows,offset);
 
-                    dt = sh.Select(sql);
+                    DataTable dt = sh.Select(sql);
                     conn.Close();
+
+                    pageResult.Add("total", total);
+                    pageResult.Add("rows", dt);
                 }
             }
 
-            return dt;
+            return JSON.Encode(pageResult);
         }
 
 

@@ -36,6 +36,15 @@
         }
     </script>
 
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?42292f4449cefb4e1bbc6bbe3347f79b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+</script>
     <body>
         <div class="wrap">
             <div class="banner">

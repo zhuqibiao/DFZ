@@ -57,6 +57,59 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Order.aspx" />
+    <Content Include="bsl_files\1.jpg" />
+    <Content Include="bsl_files\10.jpg" />
+    <Content Include="bsl_files\12.jpg" />
+    <Content Include="bsl_files\13.jpg" />
+    <Content Include="bsl_files\14.jpg" />
+    <Content Include="bsl_files\15.jpg" />
+    <Content Include="bsl_files\16.jpg" />
+    <Content Include="bsl_files\18.jpg" />
+    <Content Include="bsl_files\2.jpg" />
+    <Content Include="bsl_files\21.gif" />
+    <Content Include="bsl_files\3.jpg" />
+    <Content Include="bsl_files\4.jpg" />
+    <Content Include="bsl_files\5.jpg" />
+    <Content Include="bsl_files\6.jpg" />
+    <Content Include="bsl_files\7.jpg" />
+    <Content Include="bsl_files\9.jpg" />
+    <Content Include="bsl_files\atop2_pic1.jpg" />
+    <Content Include="bsl_files\atop2_pic2.jpg" />
+    <Content Include="bsl_files\atop2_zyt.jpg" />
+    <Content Include="bsl_files\b.js" />
+    <Content Include="bsl_files\b5m.main.js" />
+    <Content Include="bsl_files\bsl.js" />
+    <Content Include="bsl_files\b_aqpic.jpg" />
+    <Content Include="bsl_files\b_fspic.jpg" />
+    <Content Include="bsl_files\b_sy3_2.jpg" />
+    <Content Include="bsl_files\b_sy3_3.jpg" />
+    <Content Include="bsl_files\b_sy3_4.jpg" />
+    <Content Include="bsl_files\fix.css" />
+    <Content Include="bsl_files\fka.gif" />
+    <Content Include="bsl_files\fkb.gif" />
+    <Content Include="bsl_files\h.js" />
+    <Content Include="bsl_files\m-webim-lite.css" />
+    <Content Include="bsl_files\m-webim-lite.js" />
+    <Content Include="bsl_files\main.css" />
+    <Content Include="bsl_files\main_icon_invite_mess_api.js" />
+    <Content Include="bsl_files\style.css" />
+    <Content Include="bsl_files\top.jpg" />
+    <Content Include="bsl_files\top3_blt.jpg" />
+    <Content Include="bsl_files\top3_bt2.jpg" />
+    <Content Include="bsl_files\top3_cp.jpg" />
+    <Content Include="bsl_files\top7_pic1.jpg" />
+    <Content Include="bsl_files\top7_pic2.jpg" />
+    <Content Include="bsl_files\top7_pic3.jpg" />
+    <Content Include="bsl_files\top7_pic4.jpg" />
+    <Content Include="bsl_files\wfbd.js" />
+    <Content Include="bsl_files\wfdd.js" />
+    <Content Include="bsl_files\wfdd_01.html" />
+    <Content Include="bsl_files\wfdq.js" />
+    <Content Include="bsl_files\wffh.js" />
+    <Content Include="bsl_files\wfgd.js" />
+    <Content Include="bsl_files\wfstyle.css" />
+    <Content Include="bsl_files\yrshouji_online.jpg" />
+    <Content Include="bsl_files\yrshouji_tel.jpg" />
     <Content Include="Content\01.jpg" />
     <Content Include="Content\02.jpg" />
     <Content Include="Content\03.jpg" />
@@ -154,6 +207,7 @@
     <Content Include="Content\utils.js" />
     <Content Include="Default.aspx" />
     <Content Include="DLL\Newtonsoft.Json.Net20.dll" />
+    <Content Include="wapindex.html" />
     <Content Include="Images\erweima.jpg" />
     <Content Include="jquery-easyui-1.4.3\changelog.txt" />
     <Content Include="jquery-easyui-1.4.3\easyloader.js" />
@@ -573,6 +627,7 @@
     <Content Include="Ajax.ashx" />
     <Content Include="App_Data\benseling.db" />
     <Content Include="Admin\DataService.ashx" />
+    <Content Include="bsl_files\Enter.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

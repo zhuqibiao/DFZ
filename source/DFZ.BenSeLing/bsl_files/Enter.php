@@ -1,0 +1,1 @@
+QIAO_NS_BSL.handleEnter({"bid":"6124e78394c949f2ace63d37", "wordid":0, "word":"", "from":"北京海淀", "wordtype":0, "lv":1, "lvp":1, "ftime":1440079563, "ltime":1440079563, "service_type":0, "zhixin":"", "saved":1, "time":1440079563, "group":[{"groupid":0, "groupname":"默认分组", "user":[{"subid":0, "islogin":0, "groupid":0, "subname":"客服小溪"}]}]});

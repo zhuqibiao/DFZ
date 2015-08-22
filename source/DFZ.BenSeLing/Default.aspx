@@ -16,6 +16,9 @@
     <meta name="GENERATOR" content="MSHTML 8.00.7600.16930">
     <link rel="stylesheet"
         type="text/css" href="Content/base.css">
+    <script src="Content/transport.js"></script>
+    <script src="Content/utils.js"></script>
+
     <script src="Scripts/jquery-1.8.2.min.js"></script>
     <style type="text/css">
         IMG {
@@ -103,13 +106,18 @@
                     cache: false,
                     type: "POST",
                     url: "Ajax.ashx",
-                    dataType:'html',
+                    dataType:'text',
                     data: $('#wfform').serialize(),// дЦ╣дformid
                     error: function (request) {
                         alert("╠╖г╦ё╛мЬбГ©╙п║╡Накё╛гКтылА╫╩р╩об");
                     },
                     success: function (data) {
-                        alert("╧╖о╡дЗё╛╤╘╧╨Ёи╧╕ё║");
+                        if (data == "1") {
+                            alert("╧╖о╡дЗё╛╤╘╧╨Ёи╧╕ё║");
+                        }
+                        else {
+                            alert(data);
+                        }
                     }
                 });
             }
@@ -444,7 +452,7 @@ Melanoid(╨зкьиЗЁирРвс)м╗╧ЩсКф╓╥То╦╟Ш╣дснюК╟╠╩ЫкАвВсцё╛╡ЗиЗуЩЁё╥Ти╚╪╚фДоЮкф╣д"вь╥
                 <img src="Content/top4_pic5.jpg">
                 <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="282"
                     height="281">
-                    <param name="movie" value="http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzY5OTM0OTk2=&amp;isAutoPlay=true&amp;isShowRelatedVideo=false&amp;embedid=-&amp;showAd=0 ">
+                    <param name="movie" value="http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzY5OTM0OTk2=&amp;isAutoPlay=false&amp;isShowRelatedVideo=false&amp;embedid=-&amp;showAd=0 ">
                     <param name="quality" value="high">
                     <param name="wmode" value="opaque">
                     <param name="swfversion" value="6.0.65.0">
@@ -584,112 +592,25 @@ Melanoid(╨зкьиЗЁирРвс)м╗╧ЩсКф╓╥То╦╟Ш╣дснюК╟╠╩ЫкАвВсцё╛╡ЗиЗуЩЁё╥Ти╚╪╚фДоЮкф╣д"вь╥
         </div>
         <div class="clear"></div>
         <div>
-            <table cellspacing="1" cellpadding="0" width="100%" bgcolor="#999999" b="0">
+            <table cellspacing="1" cellpadding="0" width="100%" bgcolor="#999999" b="0" >
                 <tbody>
                     <tr>
                         <td bgcolor="#ffffff" width="30%">
-                            <table height="330" width="99%" b="0">
+                            <table height="330" width="99%" b="0" style="font-size:12px;">
                                 <tbody>
                                     <tr>
                                         <td bgcolor="#f7d79c" height="30"><strong>╥╒╩Ум╗ж╙</strong></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div id="demo">
-                                                <div id="demo1">
-                                                    <ul>
-                                                        <li>
-                                                        2015-1-8&nbsp;╟╡╩унъ╨ЧяНе╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╨Ч╠╠╬ёжщжЛе╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;жНТъйпЁбохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;тфдою╔цВйпюНе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;иРяТйпуее╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;и╫нВаы╥зт╛е╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╨с╠╠й╞╪рв╞ЦфохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╧Ц╤╚мУе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;уЦ╫╜сЮр╕╨нохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╫╜нВнБохиЗр╩╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;аидЧиРяТуее╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;уЦ╫╜аУе╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╨Ч╠╠жэе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╧ЦжщмУе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╦ё╫╗ажохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;ио╨ё╩фе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;уЦ╫╜сЮр╕╨не╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╫╜нВнБохиЗр╩╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;аидЧиРяТуее╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;уЦ╫╜аУе╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╨Ч╠╠жэе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╧ЦжщмУохиЗкд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╦ё╫╗аже╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;ио╨ё╩фохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;уЦ╫╜сЮр╕╨не╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╫╜нВнБе╝й©р╩╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;аидЧиРяТуее╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;уЦ╫╜аУохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╨Ч╠╠жэохиЗкд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╧ЦжщмУе╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╦ё╫╗аже╝й©а╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;ио╨ё╩фе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╨Ч╠╠уеохиЗа╫╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╫╜куюНе╝й©кд╨пря╥╒ 
-              <li>
-                                                        2015-1-8&nbsp;╦ё╫╗©╨охиЗкд╨пря╥╒ 
-              <li>2015-1-8&nbsp;╧ЦнВцое╝й©а╫╨пря╥╒ </li>
-                                                    </ul>
+                                                <div class="wffhwarp">
+                                                    <div id="wffahuo" style="height:330px; line-height:30px; overflow:hidden;">
+                                                        <div id="wffahuo1" style="overflow:hidden;">
+                                                        <script type="text/javascript" src="bsl_files/wffh.js"></script></div>
+                                                        <div id="wffahuo2"></div>
+                                                    </div>
                                                 </div>
-                                                <div id="demo2"></div>
-                                            </div>
-                                            <script type="text/javascript">
-                                                var speed = 40;
-                                                var ZJJDemo = document.getElementById('demo');
-                                                var ZJJDemo1 = document.getElementById('demo1');
-                                                var ZJJDemo2 = document.getElementById('demo2');
-                                                ZJJDemo2.innerHTML = ZJJDemo1.innerHTML
-                                                function Marquee1() {
-                                                    if (ZJJDemo2.offsetHeight - ZJJDemo.scrollTop <= 0)
-                                                        ZJJDemo.scrollTop -= ZJJDemo1.offsetHeight
-                                                    else {
-                                                        ZJJDemo.scrollTop++
-                                                    }
-                                                }
-                                                var MyMar1 = setInterval(Marquee1, speed)
-                                                ZJJDemo.onmouseover = function () { clearInterval(MyMar1) }
-                                                ZJJDemo.onmouseout = function () { MyMar1 = setInterval(Marquee1, speed) }
-                                            </script>
+                                                <script type="text/javascript" src="bsl_files/wfgd.js"></script>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -699,7 +620,7 @@ Melanoid(╨зкьиЗЁирРвс)м╗╧ЩсКф╓╥То╦╟Ш╣дснюК╟╠╩ЫкАвВсцё╛╡ЗиЗуЩЁё╥Ти╚╪╚фДоЮкф╣д"вь╥
                             <script language="javascript" charset="gb2312"
                                 src="Content/PCASClass.js"></script>
 
-                            <table cellspacing="1" cellpadding="2" width="550" align="center" bgcolor="#cccccc"
+                            <table cellspacing="1" cellpadding="2" width="550" align="center" bgcolor="#cccccc" style="font-size:12px;"
                                 b="0">
                                 <form id="wfform" onsubmit="document.charset='gb2312';return postcheck()"
                                     accept-charset="gb2312" method="post" name="wfform"
@@ -879,8 +800,10 @@ Melanoid(╨зкьиЗЁирРвс)м╗╧ЩсКф╓╥То╦╟Ш╣дснюК╟╠╩ЫкАвВсцё╛╡ЗиЗуЩЁё╥Ти╚╪╚фДоЮкф╣д"вь╥
                                     ╥ЧнЯй╠╪Дё╨жэр╩жажэд╘ тГио09:00║╙║╙мМио23:00 йш╨С╥ЧнЯ: 400-6361-651<br>
                                     <br>
                                     <br>
-                                    <span
-                                        class="STYLE3">мЬу╬жфвВ ╟Фх╗ё╨╪цдой╠ипсЙилцЁспоч╧╚к╬ 
+                                    <span>
+                                        жёжьиЫцВё╨╠╬мЬу╬н╙н╗р╩ж╦╤╗╧ы╥╫мЬу╬ё╛╠╬мЬу╬дз╣дкЫспдзхщн╙нр╧╚к╬кЫспё╛╠ёаТкЫсп╟Фх╗║ён╢╬╜╠╬╧╚к╬еЗв╪ё╛хн╨н╣╔н╩╨м╦Жхк╡╩╣ц╦╢с║
+        <br />
+╟Фх╗кЫсп ╪цдой╠ипсЙилцЁспоч╧╚к╬
                                     </span></td>
                             </tr>
                         </tbody>
@@ -889,9 +812,8 @@ Melanoid(╨зкьиЗЁирРвс)м╗╧ЩсКф╓╥То╦╟Ш╣дснюК╟╠╩ЫкАвВсцё╛╡ЗиЗуЩЁё╥Ти╚╪╚фДоЮкф╣д"вь╥
             </tr>
         </tbody>
     </table>
-    <script language="javascript" type="text/javascript">
-        alert("жп╧З315╟╡х╚жппдлАй╬ё╨дЗожтз╥цнй╣дйг╠╬и╚аИ╧ы╥╫Ё╖╪р╤╘╧╨жппдё║в╗р╣хож╓ё╛уЩф╥╠ёж╓ё║╫В╥ю╪ыц╟ё║бли╚╥епдмЬу╬ё║");
-    </script>
+
+    <br /><br /><br />
 
 </body>
 </html>

@@ -12,13 +12,13 @@ namespace DFZ.BenSeLing
         {
             string reqHost = Request.Url.Host;
 
-            if (reqHost.ToLower().StartsWith("wap."))
+            if (reqHost.ToLower().StartsWith("wap.") || reqHost.ToLower().StartsWith("m."))
             {
-                Response.Redirect("/Wap/WapIndex.aspx");
+                Response.Redirect("wapindex.html");
             }
             else if (reqHost.ToLower().StartsWith("admin."))
             {
-                Response.Redirect("/Admin/Order.aspx");
+                Response.Redirect("Admin/Order.aspx");
             }
         }
     }

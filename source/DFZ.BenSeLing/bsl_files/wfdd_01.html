@@ -21,13 +21,12 @@
           <script src="wfbd.js"></script>
           <script type="text/javascript">
               function saveorder() {
-                  alert($("#wforder"));
                   if (postcheck() != false) {
                       $.ajax({
                           cache: false,
                           type: "POST",
                           url: "../Ajax.ashx",
-                          dataType:'html',
+                          dataType:'text',
                           data: $('#wfform').serialize(),// 你的formid
                           error: function (request) {
                               alert("抱歉，网络开小差了，请再提交一下");
@@ -76,9 +75,9 @@
             <div class="wfbdbox">
                 <label class="wfbdxx"><em>*</em>所在地区</label>
                 <div class="wfxlbox">
-                    <select name="province3"></select>
-                    <select name="city3"></select>
-                    <select name="area3"></select>
+                    <div><select name="province3"></select></div>
+                    <div><select name="city3"></select></div>
+                    <div><select name="area3"></select></div>
 
                     <script language="javascript" charset="gb2312"
                             src="../Content/PCASClass.js"></script>
@@ -112,10 +111,14 @@
         <div style="clear:both;"></div>
     </div>
 </div>
-<div class="wffhwarp">
-    <div id="wffahuo" style="overflow:hidden;">
-        <div id="wffahuo1" style="overflow:hidden;"><script type="text/javascript" src="wffh.js"></script> 湖南的胡先生&nbsp;&nbsp;[134****1406]&nbsp;&nbsp;38分钟前已发货 <font color="#FF0000">√</font><br> 海南的李先生&nbsp;&nbsp;[182****6287]&nbsp;&nbsp;45分钟前已发货 <font color="#FF0000">√</font><br> 四川的林小姐&nbsp;&nbsp;[135****2530]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 天津的崔小姐&nbsp;&nbsp;[132****1435]&nbsp;&nbsp;30分钟前已发货 <font color="#FF0000">√</font><br> 浙江的陈先生&nbsp;&nbsp;[153****7845]&nbsp;&nbsp;8分钟前已发货 <font color="#FF0000">√</font><br> 海南的王先生&nbsp;&nbsp;[152****4215]&nbsp;&nbsp;38分钟前已发货 <font color="#FF0000">√</font><br> 河南的苏小姐&nbsp;&nbsp;[134****1047]&nbsp;&nbsp;50分钟前已发货 <font color="#FF0000">√</font><br> 江西的朱先生&nbsp;&nbsp;[180****5789]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 山西的陈先生&nbsp;&nbsp;[181****1145]&nbsp;&nbsp;45分钟前已发货 <font color="#FF0000">√</font><br> 浙江的代先生&nbsp;&nbsp;[150****0944]&nbsp;&nbsp;6分钟前已发货 <font color="#FF0000">√</font><br> 黑龙江的钟先生&nbsp;&nbsp;[137****1124]&nbsp;&nbsp;10分钟前已发货 <font color="#FF0000">√</font><br> 北京的马小姐&nbsp;&nbsp;[182****5085]&nbsp;&nbsp;50分钟前已发货 <font color="#FF0000">√</font><br> 上海的朱先生&nbsp;&nbsp;[183****6340]&nbsp;&nbsp;3分钟前已发货 <font color="#FF0000">√</font><br> 湖北的陈先生&nbsp;&nbsp;[150****8307]&nbsp;&nbsp;3分钟前已发货 <font color="#FF0000">√</font><br> 四川的刘小姐&nbsp;&nbsp;[135****1585]&nbsp;&nbsp;30分钟前已发货 <font color="#FF0000">√</font><br> 湖南的代先生&nbsp;&nbsp;[137****2037]&nbsp;&nbsp;30分钟前已发货 <font color="#FF0000">√</font><br> 山西的陈先生&nbsp;&nbsp;[134****0876]&nbsp;&nbsp;50分钟前已发货 <font color="#FF0000">√</font><br> 贵州的韩小姐&nbsp;&nbsp;[135****0108]&nbsp;&nbsp;8分钟前已发货 <font color="#FF0000">√</font><br> 广西的潘小姐&nbsp;&nbsp;[183****5135]&nbsp;&nbsp;3分钟前已发货 <font color="#FF0000">√</font><br> 河北的卢小姐&nbsp;&nbsp;[135****5022]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 湖南的代先生&nbsp;&nbsp;[138****5080]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 上海的陈先生&nbsp;&nbsp;[133****3776]&nbsp;&nbsp;15分钟前已发货 <font color="#FF0000">√</font><br></div>
-        <div id="wffahuo2"><script type="text/javascript" src="wffh.js"></script> 湖南的胡先生&nbsp;&nbsp;[134****1406]&nbsp;&nbsp;38分钟前已发货 <font color="#FF0000">√</font><br> 海南的李先生&nbsp;&nbsp;[182****6287]&nbsp;&nbsp;45分钟前已发货 <font color="#FF0000">√</font><br> 四川的林小姐&nbsp;&nbsp;[135****2530]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 天津的崔小姐&nbsp;&nbsp;[132****1435]&nbsp;&nbsp;30分钟前已发货 <font color="#FF0000">√</font><br> 浙江的陈先生&nbsp;&nbsp;[153****7845]&nbsp;&nbsp;8分钟前已发货 <font color="#FF0000">√</font><br> 海南的王先生&nbsp;&nbsp;[152****4215]&nbsp;&nbsp;38分钟前已发货 <font color="#FF0000">√</font><br> 河南的苏小姐&nbsp;&nbsp;[134****1047]&nbsp;&nbsp;50分钟前已发货 <font color="#FF0000">√</font><br> 江西的朱先生&nbsp;&nbsp;[180****5789]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 山西的陈先生&nbsp;&nbsp;[181****1145]&nbsp;&nbsp;45分钟前已发货 <font color="#FF0000">√</font><br> 浙江的代先生&nbsp;&nbsp;[150****0944]&nbsp;&nbsp;6分钟前已发货 <font color="#FF0000">√</font><br> 黑龙江的钟先生&nbsp;&nbsp;[137****1124]&nbsp;&nbsp;10分钟前已发货 <font color="#FF0000">√</font><br> 北京的马小姐&nbsp;&nbsp;[182****5085]&nbsp;&nbsp;50分钟前已发货 <font color="#FF0000">√</font><br> 上海的朱先生&nbsp;&nbsp;[183****6340]&nbsp;&nbsp;3分钟前已发货 <font color="#FF0000">√</font><br> 湖北的陈先生&nbsp;&nbsp;[150****8307]&nbsp;&nbsp;3分钟前已发货 <font color="#FF0000">√</font><br> 四川的刘小姐&nbsp;&nbsp;[135****1585]&nbsp;&nbsp;30分钟前已发货 <font color="#FF0000">√</font><br> 湖南的代先生&nbsp;&nbsp;[137****2037]&nbsp;&nbsp;30分钟前已发货 <font color="#FF0000">√</font><br> 山西的陈先生&nbsp;&nbsp;[134****0876]&nbsp;&nbsp;50分钟前已发货 <font color="#FF0000">√</font><br> 贵州的韩小姐&nbsp;&nbsp;[135****0108]&nbsp;&nbsp;8分钟前已发货 <font color="#FF0000">√</font><br> 广西的潘小姐&nbsp;&nbsp;[183****5135]&nbsp;&nbsp;3分钟前已发货 <font color="#FF0000">√</font><br> 河北的卢小姐&nbsp;&nbsp;[135****5022]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 湖南的代先生&nbsp;&nbsp;[138****5080]&nbsp;&nbsp;1小时前已发货 <font color="#FF0000">√</font><br> 上海的陈先生&nbsp;&nbsp;[133****3776]&nbsp;&nbsp;15分钟前已发货 <font color="#FF0000">√</font><br></div>
+
+    <div class="wffhwarp">
+        <div id="wffahuo" style="overflow:hidden;">
+            <div id="wffahuo1" style="overflow:hidden;">
+            <script type="text/javascript" src="wffh.js"></script></div>
+            <div id="wffahuo2"></div>
+        </div>
     </div>
-</div>]
+    <script type="text/javascript" src="wfgd.js"></script>
+
 </body></html>

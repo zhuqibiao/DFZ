@@ -180,6 +180,7 @@
     <Content Include="Content\sub1.js" />
     <Content Include="Content\top2_aq.jpg" />
     <Content Include="Content\top2_bz.jpg" />
+    <Content Include="Content\top2_jb.jpg" />
     <Content Include="Content\top3_blt.jpg" />
     <Content Include="Content\top3_bt.jpg" />
     <Content Include="Content\top3_bt2.jpg" />
@@ -207,6 +208,7 @@
     <Content Include="Content\utils.js" />
     <Content Include="Default.aspx" />
     <Content Include="DLL\Newtonsoft.Json.Net20.dll" />
+    <Content Include="Scripts\fhdemo.js" />
     <Content Include="wapindex.html" />
     <Content Include="Images\erweima.jpg" />
     <Content Include="jquery-easyui-1.4.3\changelog.txt" />
@@ -628,6 +630,7 @@
     <Content Include="App_Data\benseling.db" />
     <Content Include="Admin\DataService.ashx" />
     <Content Include="bsl_files\Enter.php" />
+    <None Include="Properties\PublishProfiles\fabu.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

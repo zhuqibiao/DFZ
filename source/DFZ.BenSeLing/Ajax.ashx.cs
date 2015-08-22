@@ -12,22 +12,31 @@ namespace DFZ.BenSeLing
     {
         public void ProcessRequest(HttpContext context)
         {
-            string Production = context.Request.Form["product"];
-            int OrderQty = 0;
-
-            string Consignee = context.Request.Form["name"];
-            string Phone = context.Request.Form["mob"];
-            string sheng = context.Request.Form["province3"];
-            string shi = context.Request.Form["city3"];
-            string xian = context.Request.Form["area3"];
-            string Address = context.Request.Form["addess"];
-            string Description = context.Request.Form["guest"];
-
-
-            int savev = SaveOrder(Production, OrderQty, Consignee, Phone, sheng, shi, xian, Address, Description);
-
             context.Response.ContentType = "text/plain";
-            context.Response.Write(savev);
+            try
+            {
+
+                string Production = context.Request.Form["product"];
+                int OrderQty = 0;
+
+                string Consignee = context.Request.Form["name"];
+                string Phone = context.Request.Form["mob"];
+                string sheng = context.Request.Form["province3"];
+                string shi = context.Request.Form["city3"];
+                string xian = context.Request.Form["area3"];
+                string Address = context.Request.Form["addess"];
+                string Description = context.Request.Form["guest"];
+
+
+                int savev = SaveOrder(Production, OrderQty, Consignee, Phone, sheng, shi, xian, Address, Description);
+
+                context.Response.Write(savev);
+            }
+            catch (Exception ex)
+            {
+                context.Response.Write(ex.Message);
+            }
+
         }
 
 

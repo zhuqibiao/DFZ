@@ -15,11 +15,11 @@ namespace DFZ.YML
 
             if (reqHost.ToLower().StartsWith("wap.") || reqHost.ToLower().StartsWith("m."))
             {
-                Response.Redirect("/Wap/WapIndex.aspx");
+                Response.Redirect("Wap/WapIndex.aspx");
             }
             else if (reqHost.ToLower().StartsWith("admin."))
             {
-                Response.Redirect("/Admin.aspx");
+                Response.Redirect("Admin.aspx");
             }
         }
     }

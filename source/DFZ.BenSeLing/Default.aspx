@@ -450,14 +450,10 @@ Melanoid(ºÚËØÉú³ÉÒò×Ó)Í¨¹ýÓëÆ¤·ôÏ¸°ûµÄÓÎÀë°±»ùËá×÷ÓÃ£¬²úÉúÕý³£·ôÉ«¼«ÆäÏàËÆµÄ"×Ø·
         <div class="b_right">
             <div class="top4_right">
                 <img src="Content/top4_pic5.jpg">
-                <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="282"
-                    height="281">
-                    <param name="movie" value="http://static.youku.com/v/swf/qplayer.swf?VideoIDS=XMzY5OTM0OTk2=&amp;isAutoPlay=false&amp;isShowRelatedVideo=false&amp;embedid=-&amp;showAd=0 ">
-                    <param name="quality" value="high">
-                    <param name="wmode" value="opaque">
-                    <param name="swfversion" value="6.0.65.0">
-                    <param name="expressinstall" value="../themes/aibangtao/zhuanti/benseling/Scripts/expressInstall.swf">
-                </object>
+                <EMBED width=282 height=281 align=middle src=http://player.youku.com/player.php/sid/XMzY5OTM0OTk2/v.swf type=application/x-shockwave-flash allowScriptAccess="always" quality="high" allowFullScreen="true">
+                </EMBED><//EMBED>
+
+
             </div>
             <div class="atop2_tbtj">
                 <img src="Content/atop2_tbtj.jpg"
@@ -638,7 +634,7 @@ Melanoid(ºÚËØÉú³ÉÒò×Ó)Í¨¹ýÓëÆ¤·ôÏ¸°ûµÄÓÎÀë°±»ùËá×÷ÓÃ£¬²úÉúÕý³£·ôÉ«¼«ÆäÏàËÆµÄ"×Ø·
                                                 style="color: #f00"><em>*</em></span>²úÆ·Ì×²Í</td>
                                             <td bgcolor="#ffffff" height="30" width="569" align="left">
                                                 <input
-                                                    onclick="oprize1()" id="producta" class="dxk" checked type="radio"
+                                                    onclick="oprize1()" id="producta" class="dxk"  type="radio"
                                                     value="±¾É«Áé¡¾ÌåÑé×°¡¿1ºÐ×°-298Ôª|298Ôª" name="product">
                                                 <label
                                                     for="producta">
@@ -647,7 +643,7 @@ Melanoid(ºÚËØÉú³ÉÒò×Ó)Í¨¹ýÓëÆ¤·ôÏ¸°ûµÄÓÎÀë°±»ùËá×÷ÓÃ£¬²úÉúÕý³£·ôÉ«¼«ÆäÏàËÆµÄ"×Ø·
                                                 <br>
                                                 <input onclick="oprize1()"
                                                     id="productb" class="dxk" type="radio"
-                                                    value="±¾É«Áé¡¾Ç¿Ð§ÕÚ¸Ç×°¡¿ ±¾É«Áé2ºÐ£¨¼ÓËÍ1ºÐ£© 498Ôª|498" name="product">
+                                                    value="±¾É«Áé¡¾Ç¿Ð§ÕÚ¸Ç×°¡¿ ±¾É«Áé2ºÐ£¨¼ÓËÍ1ºÐ£© 498Ôª|498" name="product" checked="checked">
                                                 <label
                                                     for="productb2">
                                                     ±¾É«Áé¡¾Ç¿Ð§ÕÚ¸Ç×°¡¿ ±¾É«Áé2ºÐ£¨¼ÓËÍ1ºÐ£© 498Ôª <span
@@ -660,7 +656,7 @@ Melanoid(ºÚËØÉú³ÉÒò×Ó)Í¨¹ýÓëÆ¤·ôÏ¸°ûµÄÓÎÀë°±»ùËá×÷ÓÃ£¬²úÉúÕý³£·ôÉ«¼«ÆäÏàËÆµÄ"×Ø·
                                                     value="±¾É«Áé¡¾ÍêÃÀÎÞè¦×°¡¿ ±¾É«Áé3ºÐ£¨¼ÓËÍ2ºÐ£© 698Ôª|698" name="product">
                                                 <label
                                                     for="productb2">
-                                                    ±¾É«Áé¡¾ÍêÃÀÎÞè¦×°¡¿ ±¾É«Áé3ºÐ£¨¼ÓËÍ2ºÐ£© 698Ôª£©&nbsp;<span
+                                                    ±¾É«Áé¡¾ÍêÃÀÎÞè¦×°¡¿ ±¾É«Áé3ºÐ£¨¼ÓËÍ2ºÐ£© 698Ôª&nbsp;<span
                                                         style="color: #f00">698Ôª</span></label>
                                                 <br>
                                                 <br>
